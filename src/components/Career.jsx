@@ -8,7 +8,7 @@ const Career = () => {
   w-screen
   min-h-[100vh]
   bg-gradient-to-bl
-  from-emerald-700/70
+  from-[#296374]/80
   from-[73%]
   to-blue-400/60
 pb-[40px]

@@ -45,11 +45,11 @@ export default function ServiceSlide() {
     <div className="w-full max-w-6xl mx-auto pt-[25px] ">
       {/* Arrows */}
       <div className="flex justify-end gap-3 mb-4 px-4">
-        <button onClick={prev} className="p-2 rounded-full border-2 border-green-800/40">
-          <ChevronLeft color="green"/>
+        <button onClick={prev} className="p-2 rounded-full border-2 border-[#0E2954]">
+          <ChevronLeft />
         </button>
-        <button onClick={next} className="p-2 rounded-full border-2 border-green-800/40">
-          <ChevronRight color="green"/>
+        <button onClick={next} className="p-2 rounded-full border-2 border-[#0E295">
+          <ChevronRight />
         </button>
       </div>
 
@@ -73,8 +73,8 @@ export default function ServiceSlide() {
                 justify-center
               "
             >
-              <div className="w-[90%] lg:w-[95%] bg-gradient-to-r from-white to-blue-100 rounded-xl shadow p-6">
-                <h3 className="text-[26px] capitalize font-semibold mb-2 text-[#0E6BA8]">
+              <div className="w-[90%] lg:w-[95%] bg-gradient-to-r from-white to-[#1F6E8C] rounded-xl shadow p-6">
+                <h3 className="text-[26px] capitalize font-semibold mb-2 text-[#0E2954]">
                   {card.title}
                 </h3>
                 <div>

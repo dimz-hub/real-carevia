@@ -17,31 +17,31 @@ var _s = __turbopack_context__.k.signature();
 const reviews = [
     {
         id: 1,
-        name: "John Doe",
+        name: "Samuel Edwards",
         role: "Family Member",
-        text: "The care staff were very professional and compassionate. Highly recommended!"
+        text: "When my mother was diagnosed with dementia, caring for her became overwhelming for our family. We wanted her to remain at home, but we needed professional support. Carevia Solutions provided a caregiver who was not only highly skilled in dementia care but also kind, patient, and understanding. She quickly built a bond with my mother, helping her feel calm, safe, and respected in her own home.knowing my mother was in compassionate and capable hands gave our family real peace of mind. We’re truly grateful for the care and support we received."
     },
     {
         id: 2,
-        name: "Jane Smith",
+        name: "Jasmine Woods",
         role: "Client",
-        text: "Excellent service, reliable and understanding staff. Made life so much easier."
+        text: `After my accident, I needed extra support to manage daily life and recover safely. The caregiver provided by  Carevia Solutions was patient, professional, and genuinely caring.With their help, I felt supported, respected, and confident as I worked toward regaining my independence. The care made a real difference during a challenging time.`
     },
     {
         id: 3,
         name: "Mary Johnson",
         role: "Family Member",
-        text: "We are so grateful for the care and attention provided. Truly wonderful team."
+        text: "Supporting our loved one with learning disabilities has always been important to us, but we knew we needed professional help to give them the best quality of life.Carevia Solutions provided a caregiver who was patient, understanding, and truly committed. They supported daily routines, encouraged independence, and treated our family member with dignity and respect.Knowing our loved one was in safe and caring hands gave us confidence and peace of mind."
     }
 ];
 function Review() {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(20);
-    if ($[0] !== "9e6aaa5c6753edccbaa3f7e8c299d9d6e8a23bf71b99d120bec13924d17c33a0") {
-        for(let $i = 0; $i < 20; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(21);
+    if ($[0] !== "c529bfcaddd5e568418436d388af1a8bc1d8b593481d7a970ab8a01be5176a29") {
+        for(let $i = 0; $i < 21; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "9e6aaa5c6753edccbaa3f7e8c299d9d6e8a23bf71b99d120bec13924d17c33a0";
+        $[0] = "c529bfcaddd5e568418436d388af1a8bc1d8b593481d7a970ab8a01be5176a29";
     }
     const [index, setIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
     let t0;
@@ -65,129 +65,144 @@ function Review() {
         t1 = $[2];
     }
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(t0, t1);
-    const t2 = reviews[index];
-    let t3;
-    if ($[3] !== t2.text) {
-        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+    let t2;
+    if ($[3] === Symbol.for("react.memo_cache_sentinel")) {
+        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+            className: "text-[30px] font-bold text-[#629FAD]",
+            children: "Care Stories"
+        }, void 0, false, {
+            fileName: "[project]/src/components/Review.jsx",
+            lineNumber: 53,
+            columnNumber: 10
+        }, this);
+        $[3] = t2;
+    } else {
+        t2 = $[3];
+    }
+    const t3 = reviews[index];
+    let t4;
+    if ($[4] !== t3.text) {
+        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
             className: "text-gray-700 text-lg mb-4",
-            children: t2.text
+            children: t3.text
         }, void 0, false, {
             fileName: "[project]/src/components/Review.jsx",
-            lineNumber: 54,
+            lineNumber: 61,
             columnNumber: 10
         }, this);
-        $[3] = t2.text;
-        $[4] = t3;
+        $[4] = t3.text;
+        $[5] = t4;
     } else {
-        t3 = $[4];
+        t4 = $[5];
     }
-    const t4 = reviews[index];
-    let t5;
-    if ($[5] !== t4.name) {
-        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-            className: "font-semibold text-blue-800 text-xl",
-            children: t4.name
+    const t5 = reviews[index];
+    let t6;
+    if ($[6] !== t5.name) {
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+            className: "font-semibold text-[#0E6BA8] text-xl",
+            children: t5.name
         }, void 0, false, {
             fileName: "[project]/src/components/Review.jsx",
-            lineNumber: 63,
+            lineNumber: 70,
             columnNumber: 10
         }, this);
-        $[5] = t4.name;
-        $[6] = t5;
+        $[6] = t5.name;
+        $[7] = t6;
     } else {
-        t5 = $[6];
+        t6 = $[7];
     }
-    const t6 = reviews[index];
-    let t7;
-    if ($[7] !== t6.role) {
-        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            className: "text-gray-500",
-            children: t6.role
-        }, void 0, false, {
-            fileName: "[project]/src/components/Review.jsx",
-            lineNumber: 72,
-            columnNumber: 10
-        }, this);
-        $[7] = t6.role;
-        $[8] = t7;
-    } else {
-        t7 = $[8];
-    }
+    const t7 = reviews[index];
     let t8;
-    if ($[9] !== t3 || $[10] !== t5 || $[11] !== t7) {
-        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "bg-white rounded-xl shadow-lg p-8 transition-all duration-500",
+    if ($[8] !== t7.role) {
+        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            className: "text-gray-500",
+            children: t7.role
+        }, void 0, false, {
+            fileName: "[project]/src/components/Review.jsx",
+            lineNumber: 79,
+            columnNumber: 10
+        }, this);
+        $[8] = t7.role;
+        $[9] = t8;
+    } else {
+        t8 = $[9];
+    }
+    let t9;
+    if ($[10] !== t4 || $[11] !== t6 || $[12] !== t8) {
+        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "w-[90%] mx-auto mt-[20px] lg:w-[95%] bg-gradient-to-r from-white  rounded-xl shadow p-6 transition-all duration-500",
             children: [
-                t3,
-                t5,
-                t7
+                t4,
+                t6,
+                t8
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Review.jsx",
-            lineNumber: 80,
+            lineNumber: 87,
             columnNumber: 10
         }, this);
-        $[9] = t3;
-        $[10] = t5;
-        $[11] = t7;
+        $[10] = t4;
+        $[11] = t6;
         $[12] = t8;
+        $[13] = t9;
     } else {
-        t8 = $[12];
+        t9 = $[13];
     }
-    let t9;
-    if ($[13] !== index) {
-        t9 = reviews.map({
+    let t10;
+    if ($[14] !== index) {
+        t10 = reviews.map({
             "Review[reviews.map()]": (_, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                     onClick: {
                         "Review[reviews.map() > <button>.onClick]": ()=>setIndex(idx)
                     }["Review[reviews.map() > <button>.onClick]"],
-                    className: `w-4 h-4 rounded-full transition-all duration-300 ${idx === index ? "bg-blue-600" : "bg-gray-300"}`
+                    className: `w-4 h-4 rounded-full transition-all duration-300 ${idx === index ? "bg-[#296374]" : "bg-gray-300"}`
                 }, idx, false, {
                     fileName: "[project]/src/components/Review.jsx",
-                    lineNumber: 91,
+                    lineNumber: 98,
                     columnNumber: 44
                 }, this)
         }["Review[reviews.map()]"]);
-        $[13] = index;
-        $[14] = t9;
+        $[14] = index;
+        $[15] = t10;
     } else {
-        t9 = $[14];
-    }
-    let t10;
-    if ($[15] !== t9) {
-        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex justify-center mt-6 gap-4",
-            children: t9
-        }, void 0, false, {
-            fileName: "[project]/src/components/Review.jsx",
-            lineNumber: 102,
-            columnNumber: 11
-        }, this);
-        $[15] = t9;
-        $[16] = t10;
-    } else {
-        t10 = $[16];
+        t10 = $[15];
     }
     let t11;
-    if ($[17] !== t10 || $[18] !== t8) {
+    if ($[16] !== t10) {
         t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex justify-center mt-6 gap-4",
+            children: t10
+        }, void 0, false, {
+            fileName: "[project]/src/components/Review.jsx",
+            lineNumber: 109,
+            columnNumber: 11
+        }, this);
+        $[16] = t10;
+        $[17] = t11;
+    } else {
+        t11 = $[17];
+    }
+    let t12;
+    if ($[18] !== t11 || $[19] !== t9) {
+        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "w-full max-w-2xl mx-auto text-center py-10 px-4",
             children: [
-                t8,
-                t10
+                t2,
+                t9,
+                t11
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Review.jsx",
-            lineNumber: 110,
+            lineNumber: 117,
             columnNumber: 11
         }, this);
-        $[17] = t10;
-        $[18] = t8;
-        $[19] = t11;
+        $[18] = t11;
+        $[19] = t9;
+        $[20] = t12;
     } else {
-        t11 = $[19];
+        t12 = $[20];
     }
-    return t11;
+    return t12;
 }
 _s(Review, "c3fuAdVwNN91t4bNS1qBXl5hAWY=");
 _c = Review;
@@ -255,11 +270,11 @@ const cards = [
 function ServiceSlide() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(28);
-    if ($[0] !== "13bedf8880bbf9335b909165a52c177904fcb59e66e546d1bdf71c43adc2dd9b") {
+    if ($[0] !== "d64c619f47acbe11eaa45e4818271f01e1c6bd866b140a5d9ef8f1d5ba48d839") {
         for(let $i = 0; $i < 28; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "13bedf8880bbf9335b909165a52c177904fcb59e66e546d1bdf71c43adc2dd9b";
+        $[0] = "d64c619f47acbe11eaa45e4818271f01e1c6bd866b140a5d9ef8f1d5ba48d839";
     }
     const [index, setIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
     const [isDesktop, setIsDesktop] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
@@ -341,9 +356,7 @@ function ServiceSlide() {
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(t4, t5);
     let t6;
     if ($[11] === Symbol.for("react.memo_cache_sentinel")) {
-        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$left$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronLeft$3e$__["ChevronLeft"], {
-            color: "green"
-        }, void 0, false, {
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$left$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronLeft$3e$__["ChevronLeft"], {}, void 0, false, {
             fileName: "[project]/src/components/ServiceSlide.jsx",
             lineNumber: 118,
             columnNumber: 10
@@ -356,7 +369,7 @@ function ServiceSlide() {
     if ($[12] !== prev) {
         t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
             onClick: prev,
-            className: "p-2 rounded-full border-2 border-green-800/40",
+            className: "p-2 rounded-full border-2 border-[#0E2954]",
             children: t6
         }, void 0, false, {
             fileName: "[project]/src/components/ServiceSlide.jsx",
@@ -370,9 +383,7 @@ function ServiceSlide() {
     }
     let t8;
     if ($[14] === Symbol.for("react.memo_cache_sentinel")) {
-        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
-            color: "green"
-        }, void 0, false, {
+        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {}, void 0, false, {
             fileName: "[project]/src/components/ServiceSlide.jsx",
             lineNumber: 133,
             columnNumber: 10
@@ -385,7 +396,7 @@ function ServiceSlide() {
     if ($[15] !== next) {
         t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
             onClick: next,
-            className: "p-2 rounded-full border-2 border-green-800/40",
+            className: "p-2 rounded-full border-2 border-[#0E295",
             children: t8
         }, void 0, false, {
             fileName: "[project]/src/components/ServiceSlide.jsx",
@@ -484,15 +495,15 @@ function _ServiceSlideCardsMap(card, i_1) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "\r\n                flex-shrink-0\r\n                w-full\r\n                lg:w-1/3\r\n                flex\r\n                justify-center\r\n              ",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "w-[90%] lg:w-[95%] bg-gradient-to-r from-white to-blue-100 rounded-xl shadow p-6",
+            className: "w-[90%] lg:w-[95%] bg-gradient-to-r from-white to-[#1F6E8C] rounded-xl shadow p-6",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                    className: "text-[26px] capitalize font-semibold mb-2 text-[#0E6BA8]",
+                    className: "text-[26px] capitalize font-semibold mb-2 text-[#0E2954]",
                     children: card.title
                 }, void 0, false, {
                     fileName: "[project]/src/components/ServiceSlide.jsx",
                     lineNumber: 193,
-                    columnNumber: 305
+                    columnNumber: 306
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -504,12 +515,12 @@ function _ServiceSlideCardsMap(card, i_1) {
                     }, void 0, false, {
                         fileName: "[project]/src/components/ServiceSlide.jsx",
                         lineNumber: 193,
-                        columnNumber: 400
+                        columnNumber: 401
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/ServiceSlide.jsx",
                     lineNumber: 193,
-                    columnNumber: 395
+                    columnNumber: 396
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     className: "pt-[20px]",
@@ -517,7 +528,7 @@ function _ServiceSlideCardsMap(card, i_1) {
                 }, void 0, false, {
                     fileName: "[project]/src/components/ServiceSlide.jsx",
                     lineNumber: 193,
-                    columnNumber: 520
+                    columnNumber: 521
                 }, this)
             ]
         }, void 0, true, {

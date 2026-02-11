@@ -29,24 +29,24 @@ const About = () => {
             </div>
             <div className='flex flex-wrap mt-[40px] items-center w-[90%] justify-center mx-auto gap-[20px]'>
 
-             <div className="w-[180px] h-36 bg-gradient-to-r from-white to-green-200 rounded-lg shadow-md p-2">
+             <div className="w-[180px] h-36 bg-gradient-to-r from-white  to-[#296374]/90 rounded-lg shadow-md p-2">
   
-  <p className="text-[45px] w-full text-center font-bold text-[#0E6BA8]">5</p>
+  <p className="text-[45px] w-full text-center font-bold text-[#0C2C55] ">5</p>
   <p className="text-center text-[19px] ">Years of <br /> quality care</p>
 </div>
-             <div className="w-[180px] h-36 bg-gradient-to-r from-white to-green-200 rounded-lg shadow-md p-2">
+             <div className="w-[180px] h-36 bg-gradient-to-r from-white  to-[#296374]/90 rounded-lg shadow-md p-2">
   
-  <p className="text-[45px] w-full text-center font-bold text-[#0E6BA8]">270+</p>
+  <p className="text-[45px] w-full text-center font-bold text-[#0C2C55]">270+</p>
   <p className="text-center text-[19px] ">Service <br /> Users</p>
 </div>
-             <div className="w-[180px] h-36 bg-gradient-to-r from-white to-green-200 rounded-lg shadow-md p-2">
+             <div className="w-[180px] h-36 bg-gradient-to-r from-white  to-[#296374]/90 rounded-lg shadow-md p-2">
   
-  <p className="text-[45px] w-full text-center font-bold text-[#0E6BA8]">100+</p>
+  <p className="text-[45px] w-full text-center font-bold text-[#0C2C55]">100+</p>
   <p className="text-center text-[19px] ">Skilled<br /> empolyees</p>
 </div>
-             <div className="w-[180px] h-36 bg-gradient-to-r from-white to-green-200 rounded-lg shadow-md p-2">
+             <div className="w-[180px] h-36 bg-gradient-to-r from-white  to-[#296374]/90 rounded-lg shadow-md p-2">
   
-  <p className="text-[45px] w-full text-center font-bold text-[#0E6BA8]">80+</p>
+  <p className="text-[45px] w-full text-center font-bold text-[#0C2C55]">80+</p>
   <p className="text-center text-[19px] ">Families <br /> Supported</p>
 </div>
          
