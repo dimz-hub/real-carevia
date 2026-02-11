@@ -10,42 +10,46 @@ const cards = [
   { id: 3, title: "Dementia Care", img: '/hero-img.jpg' },
   { id: 4, title: "Learning Difficulty Care", img: '/hero-img.jpg' },
   { id: 5, title: "End Of Life Care", img: '/hero-img.jpg' },
-  { id: 6, title: "respite care" , img: '/hero-img.jpg'},
+  { id: 6, title: "Respite Care", img: '/hero-img.jpg'},
 ];
 
 export default function ServiceSlide() {
   const [index, setIndex] = useState(0);
+  const [isDesktop, setIsDesktop] = useState(false);
 
-  const totalSlidesMobile = cards.length;
-  const totalSlidesDesktop = Math.ceil(cards.length / 3);
+  // Detect screen width
+  useEffect(() => {
+    const updateSize = () => setIsDesktop(window.innerWidth >= 1024);
+    updateSize();
+    window.addEventListener('resize', updateSize);
+    return () => window.removeEventListener('resize', updateSize);
+  }, []);
+
+  const totalSlides = isDesktop ? Math.ceil(cards.length / 3) : cards.length;
 
   const prev = () => {
-    setIndex((i) =>
-      i === 0 ? totalSlidesDesktop - 1 : i - 1
-    );
+    setIndex(i => i === 0 ? totalSlides - 1 : i - 1);
   };
 
   const next = () => {
-    setIndex((i) =>
-      i === totalSlidesDesktop - 1 ? 0 : i + 1
-    );
+    setIndex(i => i === totalSlides - 1 ? 0 : i + 1);
   };
 
   // Auto slide
   useEffect(() => {
     const timer = setInterval(next, 4000);
     return () => clearInterval(timer);
-  }, []);
+  }, [isDesktop]); // re-run if screen size changes
 
   return (
     <div className="w-full max-w-6xl mx-auto pt-[25px] ">
       {/* Arrows */}
       <div className="flex justify-end gap-3 mb-4 px-4">
-        <button onClick={prev} className="p-2 rounded-full border">
-          <ChevronLeft />
+        <button onClick={prev} className="p-2 rounded-full border-2 border-green-800/40">
+          <ChevronLeft color="green"/>
         </button>
-        <button onClick={next} className="p-2 rounded-full border">
-          <ChevronRight />
+        <button onClick={next} className="p-2 rounded-full border-2 border-green-800/40">
+          <ChevronRight color="green"/>
         </button>
       </div>
 
@@ -55,10 +59,10 @@ export default function ServiceSlide() {
         <div
           className="flex transition-transform duration-500 ease-out"
           style={{
-            transform: `translateX(-${index * 100}%)`,
+            transform: `translateX(-${index * (isDesktop ? 100 : 100)}%)`,
           }}
         >
-          {cards.map((card) => (
+          {cards.map((card, i) => (
             <div
               key={card.id}
               className="
@@ -69,13 +73,18 @@ export default function ServiceSlide() {
                 justify-center
               "
             >
-              {/* Card */}
-              <div className="w-[90%] lg:w-[95%] bg-gradient-to-r  from-white to-blue-100 rounded-xl shadow p-6">
-                <h3 className="text-[26px] capitalize font-semibold mb-2  text-[#0E6BA8]">
+              <div className="w-[90%] lg:w-[95%] bg-gradient-to-r from-white to-blue-100 rounded-xl shadow p-6">
+                <h3 className="text-[26px] capitalize font-semibold mb-2 text-[#0E6BA8]">
                   {card.title}
                 </h3>
                 <div>
-                    <Image src={card.img} alt="service-img" width={1000} height={300} className="w-[450px] rounded-2xl text-center" />
+                  <Image 
+                    src={card.img} 
+                    alt="service-img" 
+                    width={1000} 
+                    height={300} 
+                    className="w-[450px] rounded-2xl text-center" 
+                  />
                 </div>
                 <p className="pt-[20px]">
                   Professional and compassionate eldercare staffing services.
