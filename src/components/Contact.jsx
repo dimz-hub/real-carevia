@@ -6,13 +6,13 @@ const Contact = () => {
   return (
     <div>
         <div>
-            <h3 className='text-[#0E6BA8] text-[28px] text-center mb-[15px] mt-[30px]'>Get in Touch <span className='font-semibold'>With Us!</span></h3>
+            <h3 className='text-[#0E6BA8] text-[30px] text-center mb-[15px] mt-[30px]'>Get in Touch <span className='font-semibold'>With Us!</span></h3>
         <form className=' flex flex-col gap-[25px] w-[80%] mx-auto'>
-            <input type='text' placeholder='Your Name' className=' outline-none rounded-[10px] border-[1.5px] px-[10px] py-[8px] border-green-800' />
-            <input type='email' placeholder='Your Email' className='outline-none rounded-[10px] border-[1.5px] px-[10px] py-[8px] border-green-800' />
-            <input type='tel' placeholder='Your Phone' className='outline-none rounded-[10px] border-[1.5px] px-[10px] py-[8px] border-green-800' />
-            <input type='date' placeholder='Date'className='outline-none rounded-[10px] border-[1.5px] px-[10px] py-[8px] border-green-800' />
-            <textarea type='text' placeholder='Message' className=' outline-none h-[120px] rounded-[10px] border-[1.5px] px-[10px] py-[8px] border-green-800' />
+            <input type='text' placeholder='Your Name' className=' outline-none rounded-[10px] border-[1.5px] px-[10px] py-[8px] border-[#0C2C55]' />
+            <input type='email' placeholder='Your Email' className='outline-none rounded-[10px] border-[1.5px] px-[10px] py-[8px] border-[#0C2C55]' />
+            <input type='tel' placeholder='Your Phone' className='outline-none rounded-[10px] border-[1.5px] px-[10px] py-[8px] border-[#0C2C55]' />
+            <input type='date' placeholder='Date'className='outline-none rounded-[10px] border-[1.5px] px-[10px] py-[8px] border-[#0C2C55]' />
+            <textarea type='text' placeholder='Message' className=' outline-none h-[120px] rounded-[10px] border-[1.5px] px-[10px] py-[8px] border-[#0C2C55]' />
             <button className='bg-gradient-to-r from-[#0C2C55] to-[#296374]/90 p-2 font-semibold rounded-[10px]  text-white'>SUBMIT YOUR MESSAGE NOW</button>
         </form>
         <div className=' mt-[30px] bg-gradient-to-r from-[#0C2C55] to-[#296374]/90 h-auto pt-[20px] pb-[28px]  '>

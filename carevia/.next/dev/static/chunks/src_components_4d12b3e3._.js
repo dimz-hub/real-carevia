@@ -235,53 +235,22 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
-const cards = [
-    {
-        id: 1,
-        title: "Home Care",
-        img: '/hero-img.jpg'
-    },
-    {
-        id: 2,
-        title: "Domiciliary Care",
-        img: '/hero-img.jpg'
-    },
-    {
-        id: 3,
-        title: "Dementia Care",
-        img: '/hero-img.jpg'
-    },
-    {
-        id: 4,
-        title: "Learning Difficulty Care",
-        img: '/hero-img.jpg'
-    },
-    {
-        id: 5,
-        title: "End Of Life Care",
-        img: '/hero-img.jpg'
-    },
-    {
-        id: 6,
-        title: "Respite Care",
-        img: '/hero-img.jpg'
-    }
-];
-function ServiceSlide() {
+function ServiceSlide(t0) {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(28);
-    if ($[0] !== "d64c619f47acbe11eaa45e4818271f01e1c6bd866b140a5d9ef8f1d5ba48d839") {
-        for(let $i = 0; $i < 28; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(35);
+    if ($[0] !== "24180155f6ca39d4bb68956f3570ac1fe528d0f508bf321cd5525e780e43a888") {
+        for(let $i = 0; $i < 35; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "d64c619f47acbe11eaa45e4818271f01e1c6bd866b140a5d9ef8f1d5ba48d839";
+        $[0] = "24180155f6ca39d4bb68956f3570ac1fe528d0f508bf321cd5525e780e43a888";
     }
+    const { cards, color } = t0;
     const [index, setIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
     const [isDesktop, setIsDesktop] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
-    let t0;
     let t1;
+    let t2;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
-        t0 = ({
+        t1 = ({
             "ServiceSlide[useEffect()]": ()=>{
                 const updateSize = {
                     "ServiceSlide[useEffect() > updateSize]": ()=>setIsDesktop(window.innerWidth >= 1024)
@@ -291,18 +260,18 @@ function ServiceSlide() {
                 return ()=>window.removeEventListener("resize", updateSize);
             }
         })["ServiceSlide[useEffect()]"];
-        t1 = [];
-        $[1] = t0;
-        $[2] = t1;
+        t2 = [];
+        $[1] = t1;
+        $[2] = t2;
     } else {
-        t0 = $[1];
-        t1 = $[2];
+        t1 = $[1];
+        t2 = $[2];
     }
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(t0, t1);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(t1, t2);
     const totalSlides = isDesktop ? Math.ceil(cards.length / 3) : cards.length;
-    let t2;
+    let t3;
     if ($[3] !== totalSlides) {
-        t2 = ({
+        t3 = ({
             "ServiceSlide[prev]": ()=>{
                 setIndex({
                     "ServiceSlide[prev > setIndex()]": (i)=>i === 0 ? totalSlides - 1 : i - 1
@@ -310,14 +279,14 @@ function ServiceSlide() {
             }
         })["ServiceSlide[prev]"];
         $[3] = totalSlides;
-        $[4] = t2;
+        $[4] = t3;
     } else {
-        t2 = $[4];
+        t3 = $[4];
     }
-    const prev = t2;
-    let t3;
+    const prev = t3;
+    let t4;
     if ($[5] !== totalSlides) {
-        t3 = ({
+        t4 = ({
             "ServiceSlide[next]": ()=>{
                 setIndex({
                     "ServiceSlide[next > setIndex()]": (i_0)=>i_0 === totalSlides - 1 ? 0 : i_0 + 1
@@ -325,223 +294,237 @@ function ServiceSlide() {
             }
         })["ServiceSlide[next]"];
         $[5] = totalSlides;
-        $[6] = t3;
+        $[6] = t4;
     } else {
-        t3 = $[6];
+        t4 = $[6];
     }
-    const next = t3;
-    let t4;
+    const next = t4;
+    let t5;
     if ($[7] !== next) {
-        t4 = ({
+        t5 = ({
             "ServiceSlide[useEffect()]": ()=>{
                 const timer = setInterval(next, 4000);
                 return ()=>clearInterval(timer);
             }
         })["ServiceSlide[useEffect()]"];
         $[7] = next;
-        $[8] = t4;
+        $[8] = t5;
     } else {
-        t4 = $[8];
+        t5 = $[8];
     }
-    let t5;
+    let t6;
     if ($[9] !== isDesktop) {
-        t5 = [
+        t6 = [
             isDesktop
         ];
         $[9] = isDesktop;
-        $[10] = t5;
+        $[10] = t6;
     } else {
-        t5 = $[10];
+        t6 = $[10];
     }
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(t4, t5);
-    let t6;
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(t5, t6);
+    const t7 = `p-2 rounded-full border-2 ${color ? "text-[#006A71] border-[#006A71]" : "text-[#0e2954] border-[#0E2954]"} `;
+    let t8;
     if ($[11] === Symbol.for("react.memo_cache_sentinel")) {
-        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$left$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronLeft$3e$__["ChevronLeft"], {}, void 0, false, {
+        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$left$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronLeft$3e$__["ChevronLeft"], {}, void 0, false, {
             fileName: "[project]/src/components/ServiceSlide.jsx",
-            lineNumber: 118,
+            lineNumber: 98,
             columnNumber: 10
         }, this);
-        $[11] = t6;
+        $[11] = t8;
     } else {
-        t6 = $[11];
+        t8 = $[11];
     }
-    let t7;
-    if ($[12] !== prev) {
-        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+    let t9;
+    if ($[12] !== prev || $[13] !== t7) {
+        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
             onClick: prev,
-            className: "p-2 rounded-full border-2 border-[#0E2954]",
-            children: t6
+            className: t7,
+            children: t8
         }, void 0, false, {
             fileName: "[project]/src/components/ServiceSlide.jsx",
-            lineNumber: 125,
+            lineNumber: 105,
             columnNumber: 10
         }, this);
         $[12] = prev;
         $[13] = t7;
+        $[14] = t9;
     } else {
-        t7 = $[13];
+        t9 = $[14];
     }
-    let t8;
-    if ($[14] === Symbol.for("react.memo_cache_sentinel")) {
-        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {}, void 0, false, {
+    const t10 = `p-2 rounded-full border-2 ${color ? "text-[#006A71] border-[#006A71]" : "text-[#0e2954] border-[#0E2954]"} `;
+    let t11;
+    if ($[15] === Symbol.for("react.memo_cache_sentinel")) {
+        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {}, void 0, false, {
             fileName: "[project]/src/components/ServiceSlide.jsx",
-            lineNumber: 133,
-            columnNumber: 10
+            lineNumber: 115,
+            columnNumber: 11
         }, this);
-        $[14] = t8;
+        $[15] = t11;
     } else {
-        t8 = $[14];
+        t11 = $[15];
     }
-    let t9;
-    if ($[15] !== next) {
-        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+    let t12;
+    if ($[16] !== next || $[17] !== t10) {
+        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
             onClick: next,
-            className: "p-2 rounded-full border-2 border-[#0E295",
-            children: t8
+            className: t10,
+            children: t11
         }, void 0, false, {
             fileName: "[project]/src/components/ServiceSlide.jsx",
-            lineNumber: 140,
-            columnNumber: 10
+            lineNumber: 122,
+            columnNumber: 11
         }, this);
-        $[15] = next;
-        $[16] = t9;
+        $[16] = next;
+        $[17] = t10;
+        $[18] = t12;
     } else {
-        t9 = $[16];
+        t12 = $[18];
     }
-    let t10;
-    if ($[17] !== t7 || $[18] !== t9) {
-        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t13;
+    if ($[19] !== t12 || $[20] !== t9) {
+        t13 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex justify-end gap-3 mb-4 px-4",
             children: [
-                t7,
-                t9
+                t9,
+                t12
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ServiceSlide.jsx",
-            lineNumber: 148,
+            lineNumber: 131,
             columnNumber: 11
         }, this);
-        $[17] = t7;
-        $[18] = t9;
-        $[19] = t10;
+        $[19] = t12;
+        $[20] = t9;
+        $[21] = t13;
     } else {
-        t10 = $[19];
+        t13 = $[21];
     }
-    const t11 = `translateX(-${index * (isDesktop ? 100 : 100)}%)`;
-    let t12;
-    if ($[20] !== t11) {
-        t12 = {
-            transform: t11
+    const t14 = `translateX(-${index * (isDesktop ? 100 : 100)}%)`;
+    let t15;
+    if ($[22] !== t14) {
+        t15 = {
+            transform: t14
         };
-        $[20] = t11;
-        $[21] = t12;
+        $[22] = t14;
+        $[23] = t15;
     } else {
-        t12 = $[21];
+        t15 = $[23];
     }
-    let t13;
-    if ($[22] === Symbol.for("react.memo_cache_sentinel")) {
-        t13 = cards.map(_ServiceSlideCardsMap);
-        $[22] = t13;
+    let t16;
+    if ($[24] !== cards || $[25] !== color) {
+        let t17;
+        if ($[27] !== color) {
+            t17 = ({
+                "ServiceSlide[cards.map()]": (card, i_1)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "\r\n                flex-shrink-0\r\n                w-full\r\n                lg:w-1/3\r\n                flex\r\n                justify-center\r\n              ",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: `w-[90%] lg:w-[95%] bg-gradient-to-r from-white ${color ? "to-[#006A71]" : "to-[#1F6E8C]"}  rounded-xl shadow p-6`,
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                    className: `text-[26px] capitalize font-semibold mb-2 ${color ? "text-[#013437]" : "text-[#0E2954]"} `,
+                                    children: card.title
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/ServiceSlide.jsx",
+                                    lineNumber: 154,
+                                    columnNumber: 382
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        src: card.img,
+                                        alt: "service-img",
+                                        width: 1000,
+                                        height: 300,
+                                        className: "w-[450px] rounded-2xl text-center"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/ServiceSlide.jsx",
+                                        lineNumber: 154,
+                                        columnNumber: 512
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/ServiceSlide.jsx",
+                                    lineNumber: 154,
+                                    columnNumber: 507
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "pt-[20px]",
+                                    children: card.desc
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/ServiceSlide.jsx",
+                                    lineNumber: 154,
+                                    columnNumber: 632
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/components/ServiceSlide.jsx",
+                            lineNumber: 154,
+                            columnNumber: 250
+                        }, this)
+                    }, card.id, false, {
+                        fileName: "[project]/src/components/ServiceSlide.jsx",
+                        lineNumber: 154,
+                        columnNumber: 53
+                    }, this)
+            })["ServiceSlide[cards.map()]"];
+            $[27] = color;
+            $[28] = t17;
+        } else {
+            t17 = $[28];
+        }
+        t16 = cards.map(t17);
+        $[24] = cards;
+        $[25] = color;
+        $[26] = t16;
     } else {
-        t13 = $[22];
+        t16 = $[26];
     }
-    let t14;
-    if ($[23] !== t12) {
-        t14 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t17;
+    if ($[29] !== t15 || $[30] !== t16) {
+        t17 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "overflow-hidden",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex transition-transform duration-500 ease-out",
-                style: t12,
-                children: t13
+                style: t15,
+                children: t16
             }, void 0, false, {
                 fileName: "[project]/src/components/ServiceSlide.jsx",
-                lineNumber: 175,
+                lineNumber: 170,
                 columnNumber: 44
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/ServiceSlide.jsx",
-            lineNumber: 175,
+            lineNumber: 170,
             columnNumber: 11
         }, this);
-        $[23] = t12;
-        $[24] = t14;
+        $[29] = t15;
+        $[30] = t16;
+        $[31] = t17;
     } else {
-        t14 = $[24];
+        t17 = $[31];
     }
-    let t15;
-    if ($[25] !== t10 || $[26] !== t14) {
-        t15 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t18;
+    if ($[32] !== t13 || $[33] !== t17) {
+        t18 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "w-full max-w-6xl mx-auto pt-[25px] ",
             children: [
-                t10,
-                t14
+                t13,
+                t17
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/ServiceSlide.jsx",
-            lineNumber: 183,
+            lineNumber: 179,
             columnNumber: 11
         }, this);
-        $[25] = t10;
-        $[26] = t14;
-        $[27] = t15;
+        $[32] = t13;
+        $[33] = t17;
+        $[34] = t18;
     } else {
-        t15 = $[27];
+        t18 = $[34];
     }
-    return t15;
+    return t18;
 }
 _s(ServiceSlide, "wvfqEM9t406WbleEZADIxKxTZCE=");
 _c = ServiceSlide;
-function _ServiceSlideCardsMap(card, i_1) {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "\r\n                flex-shrink-0\r\n                w-full\r\n                lg:w-1/3\r\n                flex\r\n                justify-center\r\n              ",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "w-[90%] lg:w-[95%] bg-gradient-to-r from-white to-[#1F6E8C] rounded-xl shadow p-6",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                    className: "text-[26px] capitalize font-semibold mb-2 text-[#0E2954]",
-                    children: card.title
-                }, void 0, false, {
-                    fileName: "[project]/src/components/ServiceSlide.jsx",
-                    lineNumber: 193,
-                    columnNumber: 306
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                        src: card.img,
-                        alt: "service-img",
-                        width: 1000,
-                        height: 300,
-                        className: "w-[450px] rounded-2xl text-center"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/ServiceSlide.jsx",
-                        lineNumber: 193,
-                        columnNumber: 401
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/src/components/ServiceSlide.jsx",
-                    lineNumber: 193,
-                    columnNumber: 396
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "pt-[20px]",
-                    children: "Professional and compassionate eldercare staffing services."
-                }, void 0, false, {
-                    fileName: "[project]/src/components/ServiceSlide.jsx",
-                    lineNumber: 193,
-                    columnNumber: 521
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/src/components/ServiceSlide.jsx",
-            lineNumber: 193,
-            columnNumber: 207
-        }, this)
-    }, card.id, false, {
-        fileName: "[project]/src/components/ServiceSlide.jsx",
-        lineNumber: 193,
-        columnNumber: 10
-    }, this);
-}
 var _c;
 __turbopack_context__.k.register(_c, "ServiceSlide");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {

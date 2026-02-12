@@ -10,7 +10,7 @@ const Career = () => {
   bg-gradient-to-bl
   from-[#296374]/80
   from-[73%]
-  to-blue-400/60
+  to-[#1F6E8C]
 pb-[40px]
 ">
 <div className='w-[90%] mx-auto  '>

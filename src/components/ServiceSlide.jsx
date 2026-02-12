@@ -4,16 +4,9 @@ import { useEffect, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
 
-const cards = [
-  { id: 1, title: "Home Care", img: '/hero-img.jpg' },
-  { id: 2, title: "Domiciliary Care", img: '/hero-img.jpg' },
-  { id: 3, title: "Dementia Care", img: '/hero-img.jpg' },
-  { id: 4, title: "Learning Difficulty Care", img: '/hero-img.jpg' },
-  { id: 5, title: "End Of Life Care", img: '/hero-img.jpg' },
-  { id: 6, title: "Respite Care", img: '/hero-img.jpg'},
-];
 
-export default function ServiceSlide() {
+
+export default function ServiceSlide({cards, color}) {
   const [index, setIndex] = useState(0);
   const [isDesktop, setIsDesktop] = useState(false);
 
@@ -45,10 +38,10 @@ export default function ServiceSlide() {
     <div className="w-full max-w-6xl mx-auto pt-[25px] ">
       {/* Arrows */}
       <div className="flex justify-end gap-3 mb-4 px-4">
-        <button onClick={prev} className="p-2 rounded-full border-2 border-[#0E2954]">
+        <button onClick={prev} className={`p-2 rounded-full border-2 ${color? 'text-[#006A71] border-[#006A71]' : 'text-[#0e2954] border-[#0E2954]'} `}>
           <ChevronLeft />
         </button>
-        <button onClick={next} className="p-2 rounded-full border-2 border-[#0E295">
+        <button onClick={next} className={`p-2 rounded-full border-2 ${color? 'text-[#006A71] border-[#006A71]' : 'text-[#0e2954] border-[#0E2954]'} `}>
           <ChevronRight />
         </button>
       </div>
@@ -73,8 +66,8 @@ export default function ServiceSlide() {
                 justify-center
               "
             >
-              <div className="w-[90%] lg:w-[95%] bg-gradient-to-r from-white to-[#1F6E8C] rounded-xl shadow p-6">
-                <h3 className="text-[26px] capitalize font-semibold mb-2 text-[#0E2954]">
+              <div className={`w-[90%] lg:w-[95%] bg-gradient-to-r from-white ${color ? 'to-[#006A71]' : 'to-[#1F6E8C]' }  rounded-xl shadow p-6`}>
+                <h3 className={`text-[26px] capitalize font-semibold mb-2 ${color ?'text-[#013437]' : 'text-[#0E2954]' } `} >
                   {card.title}
                 </h3>
                 <div>
@@ -87,7 +80,7 @@ export default function ServiceSlide() {
                   />
                 </div>
                 <p className="pt-[20px]">
-                  Professional and compassionate eldercare staffing services.
+                  {card.desc}
                 </p>
               </div>
             </div>
