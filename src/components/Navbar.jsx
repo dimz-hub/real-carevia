@@ -51,6 +51,7 @@ const Navbar = () => {
         `}
       >
         <nav className="flex flex-col items-center justify-center h-full gap-8 text-white text-xl font-medium">
+          
           <span className="hover:underline cursor-pointer">Home</span>
           <span className="hover:underline cursor-pointer">Services</span>
           <span className="hover:underline cursor-pointer">Careers</span>

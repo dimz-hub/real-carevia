@@ -16,12 +16,12 @@ const Services = () => {
         <div>
             <div className='bg-gradient-to-r pb-[80px] from-white to-[#629FAD]/50 w-full h-auto'>
              
-             <h3 className='text-[33px] text-[#1F6E8C] pt-[50px]  font-bold justify-center flex w-[100%]'>
+             <h3 className='text-[33px] text-[#0E6BA8] pt-[50px]  font-bold justify-center flex w-[100%]'>
                 Our Care Services
              </h3>
              <div className='w-full mt-[30px]'>
 
-             <Image src='/hero-img.jpg' alt='about-image' width={1000} height={300} className='w-[500px] 
+             <Image src='/carevia2.png' alt='about-image' width={1000} height={300} className='w-[500px] 
                             '/>
             </div>
              <p className='text-[17px] pt-[30px] w-[90%] mx-auto'>

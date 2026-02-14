@@ -1,4 +1,110 @@
 (globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push([typeof document === "object" ? document.currentScript : undefined,
+"[project]/src/components/CountUp.jsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>CountUp
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
+"use client";
+;
+;
+function CountUp(t0) {
+    _s();
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(8);
+    if ($[0] !== "19fd70b08542e59cf15de309d81ef426b8a324bea8094fc09225827ebb5ab926") {
+        for(let $i = 0; $i < 8; $i += 1){
+            $[$i] = Symbol.for("react.memo_cache_sentinel");
+        }
+        $[0] = "19fd70b08542e59cf15de309d81ef426b8a324bea8094fc09225827ebb5ab926";
+    }
+    const { value, suffix: t1, duration: t2 } = t0;
+    const suffix = t1 === undefined ? "" : t1;
+    const duration = t2 === undefined ? 800 : t2;
+    const [count, setCount] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
+    const ref = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const hasAnimated = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(false);
+    let t3;
+    let t4;
+    if ($[1] !== duration || $[2] !== value) {
+        t3 = ({
+            "CountUp[useEffect()]": ()=>{
+                const observer = new IntersectionObserver((t5)=>{
+                    const [entry] = t5;
+                    if (entry.isIntersecting && !hasAnimated.current) {
+                        hasAnimated.current = true;
+                        let start = 0;
+                        const end = value;
+                        const increment = end / (duration / 16);
+                        const counter = setInterval({
+                            "CountUp[useEffect() > <anonymous> > setInterval()]": ()=>{
+                                start = start + increment;
+                                start;
+                                if (start >= end) {
+                                    setCount(end);
+                                    clearInterval(counter);
+                                } else {
+                                    setCount(Math.floor(start));
+                                }
+                            }
+                        }["CountUp[useEffect() > <anonymous> > setInterval()]"], 16);
+                    }
+                }, {
+                    threshold: 0.4
+                });
+                if (ref.current) {
+                    observer.observe(ref.current);
+                }
+                return ()=>observer.disconnect();
+            }
+        })["CountUp[useEffect()]"];
+        t4 = [
+            value,
+            duration
+        ];
+        $[1] = duration;
+        $[2] = value;
+        $[3] = t3;
+        $[4] = t4;
+    } else {
+        t3 = $[3];
+        t4 = $[4];
+    }
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(t3, t4);
+    let t5;
+    if ($[5] !== count || $[6] !== suffix) {
+        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            ref: ref,
+            children: [
+                count,
+                suffix
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/CountUp.jsx",
+            lineNumber: 69,
+            columnNumber: 10
+        }, this);
+        $[5] = count;
+        $[6] = suffix;
+        $[7] = t5;
+    } else {
+        t5 = $[7];
+    }
+    return t5;
+}
+_s(CountUp, "lKCxpPtoTj/gf3ANhT1pbLWypxk=");
+_c = CountUp;
+var _c;
+__turbopack_context__.k.register(_c, "CountUp");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
 "[project]/src/components/Hero.jsx [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -1088,4 +1194,4 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 }),
 ]);
 
-//# sourceMappingURL=_392a0def._.js.map
+//# sourceMappingURL=_158397bb._.js.map

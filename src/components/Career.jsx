@@ -16,7 +16,7 @@ pb-[40px]
 <div className='w-[90%] mx-auto  '>
 
 <div className=' pt-[60px]'>
-    <Image src='/hero-img.jpg' alt='career-img' width={1000} height={200} className='w-[430px] h-[250px] rounded-[10px]' />
+    <Image src='/carevia3.png' alt='career-img' width={1000} height={200} className='w-[430px] h-[250px] rounded-[10px]' />
 </div>
 <div className='mt-[30px] '>
 

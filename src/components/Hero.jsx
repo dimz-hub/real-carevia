@@ -22,7 +22,7 @@ export default function Hero() {
   }, [isHovering]);
 
   return (
-    <section className="relative w-screen h-[90vh] md:h-screen">
+    <section className="relative w-screen h-[80vh] md:h-screen">
       {/* Wrapper to hold background and overlay */}
       <div className="absolute inset-0 w-full h-full">
         {/* Background image */}
@@ -75,6 +75,37 @@ export default function Hero() {
               </div>
             ))}
           </div>
+        </div>
+
+         <div className="flex gap-[10px] mt-[10px]">
+         <button className="
+  border border-white
+  bg-[#0E6BA8] text-white
+  p-3 mt-[35px]
+  rounded-[10px]
+  font-semibold
+  transition-all duration-150
+  active:bg-transparent
+  active:scale-95
+  touch-manipulation
+  text-[19px]
+">
+  Contact Now
+</button>
+         <button className="
+  border border-white
+  bg-[#629FAD] p-3 mt-[35px]
+  rounded-[10px]
+  font-semibold
+  transition-all duration-150
+  active:bg-transparent
+  active:scale-95
+  touch-manipulation
+  text-[19px]
+">
+  Career in Care
+</button>
+
         </div>
       </div>
     </section>

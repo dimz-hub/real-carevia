@@ -139,12 +139,16 @@
       --tw-backdrop-sepia: initial;
       --tw-duration: initial;
       --tw-ease: initial;
+      --tw-scale-x: 1;
+      --tw-scale-y: 1;
+      --tw-scale-z: 1;
     }
   }
 }
 
 @layer theme {
   :root, :host {
+    --color-red-500: #fb2c36;
     --color-blue-300: #90c5ff;
     --color-blue-700: #1447e6;
     --color-blue-800: #193cb8;
@@ -184,6 +188,7 @@
 
   @supports (color: lab(0% 0 0)) {
     :root, :host {
+      --color-red-500: lab(55.4814% 75.0732 48.8528);
       --color-blue-300: lab(77.5052% -6.4629 -36.42);
       --color-blue-700: lab(36.9089% 35.0961 -85.6872);
       --color-blue-800: lab(30.2514% 27.7854 -70.2699);
@@ -515,8 +520,12 @@
     margin-top: -8px;
   }
 
-  .mt-\[1px\] {
+  .mt-\[1\], .mt-\[1px\] {
     margin-top: 1px;
+  }
+
+  .mt-\[2p\] {
+    margin-top: 2p;
   }
 
   .mt-\[10px\] {
@@ -615,12 +624,20 @@
     height: calc(var(--spacing) * 36);
   }
 
+  .h-\[0vh\] {
+    height: 0;
+  }
+
   .h-\[1px\] {
     height: 1px;
   }
 
   .h-\[5px\] {
     height: 5px;
+  }
+
+  .h-\[8vh\] {
+    height: 8vh;
   }
 
   .h-\[40px\] {
@@ -631,12 +648,36 @@
     height: 40vh;
   }
 
+  .h-\[80vh\] {
+    height: 80vh;
+  }
+
+  .h-\[81vh\] {
+    height: 81vh;
+  }
+
+  .h-\[82vh\] {
+    height: 82vh;
+  }
+
+  .h-\[83vh\] {
+    height: 83vh;
+  }
+
+  .h-\[86vh\] {
+    height: 86vh;
+  }
+
   .h-\[90vh\] {
     height: 90vh;
   }
 
   .h-\[120px\] {
     height: 120px;
+  }
+
+  .h-\[200px\] {
+    height: 200px;
   }
 
   .h-\[250px\] {
@@ -693,6 +734,10 @@
 
   .w-\[180px\] {
     width: 180px;
+  }
+
+  .w-\[300px\] {
+    width: 300px;
   }
 
   .w-\[430px\] {
@@ -763,6 +808,10 @@
 
   .cursor-pointer {
     cursor: pointer;
+  }
+
+  .touch-manipulation {
+    touch-action: manipulation;
   }
 
   .resize {
@@ -965,6 +1014,10 @@
     background-color: lab(38.7197% -15.352 -15.6185 / .8);
   }
 
+  .bg-\[\#\] {
+    background-color: # ;
+  }
+
   .bg-black\/50 {
     background-color: #00000080;
   }
@@ -1005,6 +1058,18 @@
 
   .bg-\[url\(\'\/carevia1\.png\'\)\] {
     background-image: url("/carevia1.png");
+  }
+
+  .bg-\[url\(\'\/carevia1a\.png\'\)\] {
+    background-image: url("/carevia1a.png");
+  }
+
+  .bg-\[url\(\'\/carevia1c\.png\'\)\] {
+    background-image: url("/carevia1c.png");
+  }
+
+  .bg-\[url\(\'\/carevia1d\.png\'\)\] {
+    background-image: url("/carevia1d.png");
   }
 
   .from-\[\#0C2C55\] {
@@ -1419,6 +1484,11 @@
     transition-duration: var(--tw-duration, var(--default-transition-duration));
   }
 
+  .duration-150 {
+    --tw-duration: .15s;
+    transition-duration: .15s;
+  }
+
   .duration-300 {
     --tw-duration: .3s;
     transition-duration: .3s;
@@ -1456,9 +1526,34 @@
   }
 
   @media (hover: hover) {
+    .hover\:bg-transparent:hover {
+      background-color: #0000;
+    }
+  }
+
+  @media (hover: hover) {
     .hover\:underline:hover {
       text-decoration-line: underline;
     }
+  }
+
+  .active\:scale-95:active {
+    --tw-scale-x: 95%;
+    --tw-scale-y: 95%;
+    --tw-scale-z: 95%;
+    scale: var(--tw-scale-x) var(--tw-scale-y);
+  }
+
+  .active\:bg-\[\#0E6BA8\]:active {
+    background-color: #0e6ba8;
+  }
+
+  .active\:bg-red-500:active {
+    background-color: var(--color-red-500);
+  }
+
+  .active\:bg-transparent:active {
+    background-color: #0000;
   }
 
   .active\:underline:active {
@@ -1499,6 +1594,14 @@
     .md\:text-2xl {
       font-size: var(--text-2xl);
       line-height: var(--tw-leading, var(--text-2xl--line-height));
+    }
+  }
+
+  @media (min-width: 48rem) {
+    @media (hover: hover) {
+      .md\:hover\:bg-transparent:hover {
+        background-color: #0000;
+      }
     }
   }
 
@@ -1815,6 +1918,24 @@ body {
 @property --tw-ease {
   syntax: "*";
   inherits: false
+}
+
+@property --tw-scale-x {
+  syntax: "*";
+  inherits: false;
+  initial-value: 1;
+}
+
+@property --tw-scale-y {
+  syntax: "*";
+  inherits: false;
+  initial-value: 1;
+}
+
+@property --tw-scale-z {
+  syntax: "*";
+  inherits: false;
+  initial-value: 1;
 }
 
 /*# sourceMappingURL=%5Broot-of-the-server%5D__a3dce129._.css.map*/

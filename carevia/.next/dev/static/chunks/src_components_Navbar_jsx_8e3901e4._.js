@@ -21,11 +21,11 @@ var _s = __turbopack_context__.k.signature();
 const Navbar = ()=>{
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(18);
-    if ($[0] !== "c8027e6253847e0f51d390d752043cda961ffa73d2ec06584927eaea72ee73b3") {
+    if ($[0] !== "5f539f1f396526f9287f8991598ef070e98c4c07ae7efeb6204e2ddfb30573e6") {
         for(let $i = 0; $i < 18; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "c8027e6253847e0f51d390d752043cda961ffa73d2ec06584927eaea72ee73b3";
+        $[0] = "5f539f1f396526f9287f8991598ef070e98c4c07ae7efeb6204e2ddfb30573e6";
     }
     const [menuOpen, setMenuOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     let t0;
