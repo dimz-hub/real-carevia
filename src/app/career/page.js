@@ -77,7 +77,7 @@ const Career = () => {
       {/* Live-in / Live-out */}
       <div>
         <label className="font-medium text-[#0C2C55]">Are you looking for live-in or live-out work? *</label>
-        <div className="flex gap-6 mt-2">
+        <div className="flex gap-6 mt-2 text-[#0C2C55]">
           {["Live-in", "Live-out", "Either"].map(option => (
             <label key={option} className="flex items-center gap-2">
               <input type="radio" name="workType" required />
@@ -103,7 +103,7 @@ const Career = () => {
         <label className="font-medium text-[#0C2C55]">What certificates do you have? *</label>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-2">
           {["HHA", "CNA", "PCA", "LPN", "Other"].map(cert => (
-            <label key={cert} className="flex items-center gap-2">
+            <label key={cert} className="flex items-center gap-2 text-[#0C2C55]">
               <input type="checkbox" />
               {cert}
             </label>
@@ -114,7 +114,7 @@ const Career = () => {
       {/* Driver */}
       <div>
         <label className="font-medium text-[#0C2C55]">Do you have a driver's license/car? *</label>
-        <div className="flex flex-col gap-2 mt-2">
+        <div className="flex flex-col gap-2 mt-2 text-[#0C2C55] ">
           <label><input type="radio" name="driver" required /> Yes, with my own car</label>
           <label><input type="radio" name="driver" /> Yes, without a car</label>
           <label><input type="radio" name="driver" /> No</label>
@@ -124,7 +124,7 @@ const Career = () => {
       {/* Agency experience */}
       <div>
         <label className="font-medium text-[#0C2C55]">Have you worked with an agency before? *</label>
-        <div className="flex gap-6 mt-2">
+        <div className="flex gap-6 mt-2 text-[#0C2C55]">
           <label><input type="radio" name="agency" required /> Yes</label>
           <label><input type="radio" name="agency" /> No</label>
         </div>

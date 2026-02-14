@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer';
 import ServiceCard from '@/components/ServiceCard';
 import ServiceSlide from '@/components/ServiceSlide';
 import React from 'react'
@@ -37,7 +38,15 @@ const service = () => {
                 )
               }
             </div>
+
+            <div className='h-[40vh] flex flex-col  gap-[10px] items-center justify-center bg-[#84A7A1]/70 '>
+              <p className='w-[87%] text-center text-[18px] mx-auto'>"I underestimated how hard it was to find support for my adult son who has challenging behaviour, but getting in conatct with Carevia Solutions gave us the perfect care he needed. "</p>
+              <p className='text-center text-[18px] font-semibold'>
+              - LUCY R, CAREVIA SOLUTIONS <br /> CLIENT
+              </p>
+            </div>
            </div>
+            <Footer />
     </div>
   
   )

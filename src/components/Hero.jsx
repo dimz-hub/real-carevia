@@ -1,0 +1,89 @@
+"use client";
+import { useEffect, useState } from "react";
+
+export default function Hero() {
+  const roles = [
+    "Registered Nurses",
+    "Support Workers",
+    "Healthcare Assistants",
+    "Cleaners & Domestic Staff",
+  ];
+
+  const [index, setIndex] = useState(0);
+  const [isHovering, setIsHovering] = useState(false);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (!isHovering) {
+        setIndex((prev) => (prev + 1) % roles.length);
+      }
+    }, 2500);
+    return () => clearInterval(interval);
+  }, [isHovering]);
+
+  return (
+    <section className="relative w-screen h-[90vh] md:h-screen">
+      {/* Wrapper to hold background and overlay */}
+      <div className="absolute inset-0 w-full h-full">
+        {/* Background image */}
+        <div
+          className="
+            w-full h-full
+            bg-[url('/carevia1.png')]
+            md:bg-[url('/carevia3a.png')]
+            bg-cover
+            bg-center
+            md:bg-center
+          "
+        />
+
+        {/* Dark overlay */}
+        <div className="absolute inset-0 bg-black/50" />
+      </div>
+
+      {/* Content */}
+      <div className="relative z-10 flex flex-col items-center  text-center text-white px-4 h-full">
+        {/* Tagline */}
+        <p className="bg-white text-[13px] text-blue-800 mt-[15px] py-[10px] px-[20px] font-semibold rounded-[20px]">
+          Redefining Care Staffing across UK
+        </p>
+
+        {/* Intro text */}
+      <p className="mt-[50px] max-w-xl text-[30px] text-white font-bold">
+         Trusted care, <br /> when and where you need it
+        </p>
+        <p className="mt-6 max-w-xl text-[17px] mt-[47px]  font-bold">
+          Your trusted team for every care you need
+        </p>
+
+        {/* Scrolling staff roles */}
+        <div
+          className="mt-6 h-[40px] overflow-hidden relative w-full max-w-md"
+          onMouseEnter={() => setIsHovering(true)}
+          onMouseLeave={() => setIsHovering(false)}
+        >
+          <div
+            className="absolute w-full transition-transform duration-700 ease-in-out"
+            style={{ transform: `translateY(-${index * 40}px)` }}
+          >
+            {roles.map((role, i) => (
+              <div
+                key={i}
+                className="h-[40px] flex items-center justify-center text-xl md:text-2xl font-semibold"
+              >
+                {role}
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+
+
+
+
+
+
