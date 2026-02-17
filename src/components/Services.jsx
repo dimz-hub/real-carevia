@@ -26,11 +26,14 @@ const Services = () => {
              <Image src='/carevia2.png' alt='about-image' width={1000} height={300} className='w-[500px] md:hidden'/>
              <Image src='/carevia1c.png' alt='about-image' width={1000} height={300} className='w-[500px] rounded-[25px] hidden md:block'/>
             </div>
-             <p className='text-[17px] pt-[30px] md:pt-[80px] flex-1 w-[90%] mx-auto md:text-[20px]'>
+             <p className='text-[18px] pt-[30px] md:pt-[80px] flex-1 w-[90%] mx-auto md:text-[20px]'>
              We provide reliable, compassionate, and highly trained care professionals to support elderly individuals in a wide range of settings across England and Wales. Our staffing solutions are designed to meet the unique needs of care providers, families, and service users, ensuring safe, dignified, and person-centred care at all times.
              </p>
                             </div>
-              <ServiceSlide cards={cards}/>
+              <div className='md:w-[80%] w-[90%] mx-auto' >
+                <p className='text-[#0E6BA8] text-[22px] text-center mb-[8px] mt-[30px]'>Staffing Solutions in Your Area</p>
+                <p Qualified className='text-[18px]'>Our dedicated team proudly serves wide range of locations, delivering reliable and high-quality Service whenever you need us. Qualified healthcare staff for hospitals, nursing homes, residential home, and care providers, reliable, professional and ready to support you. </p>
+              </div>
               <div className='flex items-center justify-center'>
 
             <button className='border border-white bg-[#629FAD] p-3 text-white mt-[35px] rounded-[10px] text-[16px] font-semibold antialiased'>Learn More</button>
