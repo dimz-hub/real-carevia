@@ -31,7 +31,7 @@ const Services = () => {
              </p>
                             </div>
               <div className='md:w-[80%] w-[90%] mx-auto' >
-                <p className='text-[#0E6BA8] text-[22px] text-center mb-[8px] mt-[30px]'>Staffing Solutions in Your Area</p>
+                <p className='text-[#0E6BA8] text-[22px] text-center mb-[8px] mt-[20px]'>Staffing Solutions in Your Area</p>
                 <p Qualified className='text-[18px]'>Our dedicated team proudly serves wide range of locations, delivering reliable and high-quality Service whenever you need us. Qualified healthcare staff for hospitals, nursing homes, residential home, and care providers, reliable, professional and ready to support you. </p>
               </div>
               <div className='flex items-center justify-center'>
