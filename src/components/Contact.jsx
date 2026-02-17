@@ -24,7 +24,7 @@ const Contact = () => {
           <p className='mx-auto w-[90%] mt-[20px] text-white text-[17px] text-center md:text-[18.5px]'>We provide nationwide coverage across <span className='font-semibold'>England</span> and <span className='font-semibold'>Wales</span> </p>
         </div>
         <div className='w-[100%] text-center text-[20px] font-semibold mt-[30px] text-[#0E6BA8] underline'>Make Enquires below</div>
-        <form className=' flex flex-col gap-[25px] w-[80%] mx-auto mt-[30px]'>
+        <form className=' mb-[30px] flex flex-col gap-[25px] w-[80%] mx-auto mt-[30px]'>
             <input type='text' placeholder='Your Name' className=' outline-none rounded-[10px] border-[1.5px] px-[10px] py-[8px] border-[#0C2C55]' />
             <input type='email' placeholder='Your Email' className='outline-none rounded-[10px] border-[1.5px] px-[10px] py-[8px] border-[#0C2C55]' />
             <input type='tel' placeholder='Your Phone' className='outline-none rounded-[10px] border-[1.5px] px-[10px] py-[8px] border-[#0C2C55]' />
