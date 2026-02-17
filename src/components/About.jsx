@@ -5,37 +5,40 @@ import CountUp from "@/components/CountUp";
 const About = () => {
   return (
     <div>
-      <div className="w-[90%] mx-auto mt-[40px] pb-[100px]">
-        <div>
+      <div className="w-[90%] mx-auto mt-[40px] pb-[100px]  ">
+        <div className="md:flex  md:justify-center items-center gap-[30px]">
+
+        <div className="md:flex-1">
           <Image
             src="/carevia4.png"
             alt="about-image"
             width={1000}
             height={300}
-            className="w-[450px] rounded-2xl"
-          />
+            className="w-[450px] md:w-[550px] rounded-2xl"
+            />
         </div>
 
-        <div className="flex flex-col gap-[35px]">
-          <h3 className="font-bold text-[#0E6BA8] text-[30px] mt-[20px] capitalize">
+        <div className="flex flex-col gap-[35px] md:gap-[25px] md:flex-1">
+          <h3 className="font-bold texts-[#43acf3] text-[#0E6BA8] md:text-[35px]  text-[30px] mt-[20px] capitalize">
             Welcome to <br /> Carevia solutions
           </h3>
 
-          <p className="text-[17px]">
+          <p className="text-[17px] md:text-[20px]">
             At Carevia Solutions, we are dedicated to supporting older adults by
             providing reliable, compassionate, and highly trained care
             professionals across England and Wales.
           </p>
 
-          <p className="text-[17px]">
+          <p className="text-[17px] md:text-[20px]">
             We specialise in elder care staffing solutions, connecting care
             homes, supported living services, and private clients with skilled
             caregivers.
           </p>
         </div>
+            </div>
 
         {/* Stats */}
-        <div className="flex flex-wrap mt-[40px] items-center w-[90%] justify-center mx-auto gap-[20px]">
+        <div className="flex flex-wrap mt-[40px] md:mt-[60px] items-center w-[90%] justify-center mx-auto gap-[20px]">
           
           <StatCard
             number={<CountUp value={5} />}
@@ -67,7 +70,7 @@ const StatCard = ({ number, label }) => (
     <p className="text-[45px] w-full text-center font-bold text-[#0C2C55]">
       {number}
     </p>
-    <p className="text-center text-[19px]">
+    <p className="text-center text-[19px] ">
       {label.split(" ").slice(0, -1).join(" ")} <br />
       {label.split(" ").slice(-1)}
     </p>

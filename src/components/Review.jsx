@@ -37,7 +37,7 @@ export default function Review() {
 
   return (
     <div className="w-full max-w-2xl mx-auto text-center py-10 px-4">
-      <h3 className="text-[30px] font-bold text-[#629FAD]">Care Stories</h3>
+      <h3 className="text-[30px] font-bold text-[#629FAD] md:text-[37px]">Care Stories</h3>
       {/* Card */}
       <div className="w-[90%] mx-auto mt-[20px] lg:w-[95%] bg-gradient-to-r from-white  rounded-xl shadow p-6 transition-all duration-500">
         <p className="text-gray-700 text-lg mb-4">{reviews[index].text}</p>

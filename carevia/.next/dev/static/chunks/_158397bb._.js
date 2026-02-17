@@ -426,11 +426,11 @@ const reviews = [
 function Review() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(21);
-    if ($[0] !== "c529bfcaddd5e568418436d388af1a8bc1d8b593481d7a970ab8a01be5176a29") {
+    if ($[0] !== "85c1a462aec3a539c19c256b41d964600f84d500cae462dc39350a85dd9c72b1") {
         for(let $i = 0; $i < 21; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "c529bfcaddd5e568418436d388af1a8bc1d8b593481d7a970ab8a01be5176a29";
+        $[0] = "85c1a462aec3a539c19c256b41d964600f84d500cae462dc39350a85dd9c72b1";
     }
     const [index, setIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
     let t0;
@@ -457,7 +457,7 @@ function Review() {
     let t2;
     if ($[3] === Symbol.for("react.memo_cache_sentinel")) {
         t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-            className: "text-[30px] font-bold text-[#629FAD]",
+            className: "text-[30px] font-bold text-[#629FAD] md:text-[37px]",
             children: "Care Stories"
         }, void 0, false, {
             fileName: "[project]/src/components/Review.jsx",
@@ -627,11 +627,11 @@ var _s = __turbopack_context__.k.signature();
 function ServiceSlide(t0) {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(35);
-    if ($[0] !== "24180155f6ca39d4bb68956f3570ac1fe528d0f508bf321cd5525e780e43a888") {
+    if ($[0] !== "ecf6b557710e7eecc549c2e665f7229931723067cd2dcf9d2f0a763e3eb3a848") {
         for(let $i = 0; $i < 35; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "24180155f6ca39d4bb68956f3570ac1fe528d0f508bf321cd5525e780e43a888";
+        $[0] = "ecf6b557710e7eecc549c2e665f7229931723067cd2dcf9d2f0a763e3eb3a848";
     }
     const { cards, color } = t0;
     const [index, setIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
@@ -819,16 +819,17 @@ function ServiceSlide(t0) {
                                     columnNumber: 382
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "relative w-full h-[220px] overflow-hidden rounded-2xl",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         src: card.img,
                                         alt: "service-img",
-                                        width: 1000,
-                                        height: 300,
-                                        className: "w-[450px] rounded-2xl text-center"
+                                        fill: true,
+                                        className: "object-cover",
+                                        sizes: "(min-width: 1024px) 33vw, 100vw"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/ServiceSlide.jsx",
                                         lineNumber: 154,
-                                        columnNumber: 512
+                                        columnNumber: 578
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ServiceSlide.jsx",
@@ -841,7 +842,7 @@ function ServiceSlide(t0) {
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ServiceSlide.jsx",
                                     lineNumber: 154,
-                                    columnNumber: 632
+                                    columnNumber: 703
                                 }, this)
                             ]
                         }, void 0, true, {

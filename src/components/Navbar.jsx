@@ -1,16 +1,25 @@
-'use client'
-import Image from 'next/image'
-import React, { useState } from 'react'
-import { FiMenu, FiX } from 'react-icons/fi'
+"use client";
+
+import Image from "next/image";
+import Link from "next/link";
+import React, { useEffect, useState } from "react";
+import { FiMenu, FiX } from "react-icons/fi";
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
+
+  // Close menu when route changes
+  useEffect(() => {
+    setMenuOpen(false);
+  }, [pathname]);
 
   return (
     <>
       {/* Top bar */}
-      <div className="w-full ">
-        <div className="flex items-center justify-between w-[93%] mx-auto p">
+      <div className="w-full">
+        <div className="flex items-center justify-between w-[93%] mx-auto">
           <Image
             src="/carevia-logo.png"
             alt="carevia"
@@ -20,46 +29,47 @@ const Navbar = () => {
 
           <button
             onClick={() => setMenuOpen(!menuOpen)}
-            className="relative z-50 transition-transform duration-300"
+            className="relative z-50"
           >
             {menuOpen ? (
-              <FiX size={32} className="text-white rotate-90 transition-all duration-300" />
+              <FiX size={32} className="text-white" />
             ) : (
-              <FiMenu size={34} className="text-[#2E8A99] transition-all duration-300" />
+              <FiMenu size={34} className="text-[#2E8A99]" />
             )}
           </button>
         </div>
       </div>
 
-      {/* Overlay */}
+      {/* Overlay (BEHIND menu) */}
       <div
+        onClick={() => setMenuOpen(false)}
         className={`
           fixed inset-0 bg-black/70 backdrop-blur-sm
           transition-opacity duration-300
-          ${menuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}
+          ${menuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}
+          z-30
         `}
       />
 
-      {/* Slide-in menu */}
+      {/* Slide-in menu (ON TOP of overlay) */}
       <div
         className={`
           fixed top-0 right-0 h-screen w-[80%] max-w-sm
           bg-[#0E2A47]
           transform transition-transform duration-300 ease-in-out
-          ${menuOpen ? 'translate-x-0' : 'translate-x-full'}
+          ${menuOpen ? "translate-x-0" : "translate-x-full"}
           z-40
         `}
       >
         <nav className="flex flex-col items-center justify-center h-full gap-8 text-white text-xl font-medium">
-          
-          <span className="hover:underline cursor-pointer">Home</span>
-          <span className="hover:underline cursor-pointer">Services</span>
-          <span className="hover:underline cursor-pointer">Careers</span>
-          <span className="hover:underline cursor-pointer">Contact</span>
+          <Link href="/" onClick={() => setMenuOpen(false)}>Home</Link>
+          <Link href="/ourservices" onClick={() => setMenuOpen(false)}>Services</Link>
+          <Link href="/career" onClick={() => setMenuOpen(false)}>Careers</Link>
+          <Link href="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
         </nav>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

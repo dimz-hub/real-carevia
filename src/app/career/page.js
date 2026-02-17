@@ -6,24 +6,24 @@ const Career = () => {
     <div>
         <div>
 
-          <h3 className='text-[#0E6BA8] text-center text-[35px] font-semibold'>Careers</h3>
-        <div className='w-[100%] mx-auto '>
-         <div>
-            <div className='mt-[30px]'>
-                           <Image src='/hero-img.jpg' alt='about-image' width={1000} height={300} className='w-[500px] 
-                           '/>
+          <h3 className='text-[#0E6BA8] text-center text-[35px] font-semibold border-b-2  pb-[15px] mx-auto'>Careers</h3>
+        <div className='w-[100%] mx-auto  '>
+         <div className='md:flex  w-[90%] mx-auto md:gap-[20px] md:justify-center md:items-center'>
+            <div className='mt-[40px] flex-1'>
+                           <Image src='/service1a.png' alt='about-image' width={1000} height={300} className='w-[500px] 
+                            md:w-[60vw] md:h-[80vh] rounded-[20px]'/>
                        </div>
-                       <div>
-                        <p className='text-center mx-auto mt-[20px] text-[23px] w-[80%] text-blue-300'>
-                          <span className='font-bold text-[#296374]'>Make a Difference</span> With a Career in Care
+                       <div className='flex-1'>
+                        <p className='text-center mx-auto mt-[20px] md:text-left md:w-[100%] md:text-[35px] text-[23px] w-[80%] text-blue-300'>
+                          <span className='font-bold text-[#296374] '>Make a Difference</span> With a Career in Care
                           </p>
-                          <div className='w-[90%] mx-auto my-[15px] text-[18.49px] flex flex-col gap-[15px]'>
+                          <div className='w-[90%] mx-auto my-[15px] md:w-[100%] text-[18.49px] flex flex-col gap-[15px]'>
                             <p>At Carevia Solutions, we know that caring is a challenging and rewarding career. Our aim is to provide compassionate and caring service our clients  and a fulfilling, supportive work environment for or staff. </p>
                             <p> If you would like to register with our agency, kindly fill out this short form and you will be contact to schedule a meeting.  </p>
                           </div>
                        </div>
          </div>
-    <form className="max-w-3xl w-[90%] mx-auto space-y-6">
+    <form className="max-w-3xl w-[90%] mx-auto space-y-6 mt-[40px]">
 
       {/* Name */}
       <div>

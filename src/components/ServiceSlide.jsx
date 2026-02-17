@@ -70,15 +70,16 @@ export default function ServiceSlide({cards, color}) {
                 <h3 className={`text-[26px] capitalize font-semibold mb-2 ${color ?'text-[#013437]' : 'text-[#0E2954]' } `} >
                   {card.title}
                 </h3>
-                <div>
-                  <Image 
-                    src={card.img} 
-                    alt="service-img" 
-                    width={1000} 
-                    height={300} 
-                    className="w-[450px] rounded-2xl text-center" 
-                  />
-                </div>
+               <div className="relative w-full h-[220px] overflow-hidden rounded-2xl">
+  <Image
+    src={card.img}
+    alt="service-img"
+    fill
+    className="object-cover"
+    sizes="(min-width: 1024px) 33vw, 100vw"
+  />
+</div>
+
                 <p className="pt-[20px]">
                   {card.desc}
                 </p>

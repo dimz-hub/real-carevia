@@ -19,7 +19,7 @@ const service = () => {
         <div className='bg-gradient-to-r pb-[30x]  from-white to-[#9ACBD0]/70 '>
         <div className='w-[90%] mx-auto pb-[40px]'>
 
-            <h3 className='text-[#006A71] text-[35px] font-semibold text-center pt-[20px] pb-[15px]'>Our Services</h3>
+            <h3 className='text-[#006A71] border-b  text-[35px] font-semibold text-center pt-[20px] mb-[20px]'>Our Services</h3>
             <p className='text-[18px] mb-[15px]'>We provide highly trained, reliable care professionals to support individuals and families at home and in care settings. From companionship and personal care to specialised support for dementia, learning disabilities, and complex needs, our staff are carefully matched to ensure comfort, dignity, and continuity of care. Our focus is simple: dependable staffing, delivered with compassion and professionalism.</p>
            <p className='text-[18px]'>We offer a wide range of staffs which <span className='font-semibold'>includes</span></p>
         </div>
