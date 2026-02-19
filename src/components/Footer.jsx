@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link';
 import React from 'react'
 import { FaEnvelope, FaPhone } from 'react-icons/fa'
 
@@ -25,14 +26,14 @@ const Footer = () => {
   
           <div className='pl-[35px] mt-[20px]'>
             <h3 className='font-bold text-[22px] text-white'>Our services</h3>
-            <div className='flex flex-col gap-[10px] mt-[10px] text-white text-[18px]'>
+            <Link href='/ourservices' className='flex flex-col gap-[10px] mt-[10px] text-white text-[18px]'>
                 <span className='hover:underline cursor-pointer active:underline'>Home Care</span>
                 <span className='hover:underline cursor-pointer active:underline'>Domiciliary Care</span>
                 <span className='hover:underline cursor-pointer active:underline'>Dementia Care</span>
                 <span className='hover:underline cursor-pointer active:underline'>Learning Difficulty Care</span>
                 <span className='hover:underline cursor-pointer active:underline'>End of Life  Care</span>
                 <span className='hover:underline cursor-pointer active:underline'>Respite Care</span>
-            </div>
+            </Link>
           </div>
           <div className='w-[90%] mx-auto'>
             <div className='w-full h-[1px] my-[25px] bg-white'></div>

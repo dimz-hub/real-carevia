@@ -1,177 +1,167 @@
-import Image from 'next/image'
-import React from 'react'
+"use client";
+
+import Image from "next/image";
+import React, { useState } from "react";
+import { useRouter } from "next/navigation";
 
 const Career = () => {
+  const router = useRouter();
+  const [showSuccess, setShowSuccess] = useState(false);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const form = e.target;
+    const formData = new FormData(form);
+
+    try {
+      const res = await fetch("https://formspree.io/f/xeelzzgl", {
+        method: "POST",
+        body: formData,
+        headers: {
+          Accept: "application/json",
+        },
+      });
+
+      if (res.ok) {
+        form.reset();
+        setShowSuccess(true);
+
+        window.scrollTo({ top: 0, behavior: "smooth" });
+
+
+        setTimeout(() => {
+          setShowSuccess(false);
+          // router.push("/");
+        }, 3000);
+      } else {
+        alert("Submission failed. Please try again.");
+      }
+    } catch (error) {
+      alert("Something went wrong.");
+    }
+  };
+
   return (
-    <div>
+    <div className="relative pb-[30px]">
+      {/* SUCCESS POPUP */}
+      {showSuccess && (
+        <div className="fixed top-6 left-1/2 -translate-x-1/2 bg-[#629FAD] z-50  text-white px-6 py-4 rounded-xl shadow-lg animate-fadeIn">
+          <p className="font-semibold text-lg">
+            ✅ Form submitted successfully
+          </p>
+        </div>
+      )}
+
+      <h3 className="text-[#0E6BA8] text-center lg:text-[44px] text-[35px] pt-[15px] font-semibold border-b-2 pb-[15px] mx-auto">
+        Careers
+      </h3>
+
+      <div className="md:flex w-[90%] mx-auto mt-[35px] gap-[20px] items-center">
+        <Image
+          src="/endoflife.jpg"
+          alt="career"
+          width={1000}
+          height={300}
+          className="w-[500px] md:w-[60vw] md:h-[80vh] rounded-[20px]"
+        />
+
         <div>
-
-          <h3 className='text-[#0E6BA8] text-center text-[35px] font-semibold border-b-2  pb-[15px] mx-auto'>Careers</h3>
-        <div className='w-[100%] mx-auto  '>
-         <div className='md:flex  w-[90%] mx-auto md:gap-[20px] md:justify-center md:items-center'>
-            <div className='mt-[40px] flex-1'>
-                           <Image src='/service1a.png' alt='about-image' width={1000} height={300} className='w-[500px] 
-                            md:w-[60vw] md:h-[80vh] rounded-[20px]'/>
-                       </div>
-                       <div className='flex-1'>
-                        <p className='text-center mx-auto mt-[20px] md:text-left md:w-[100%] md:text-[35px] text-[23px] w-[80%] text-blue-300'>
-                          <span className='font-bold text-[#296374] '>Make a Difference</span> With a Career in Care
-                          </p>
-                          <div className='w-[90%] mx-auto my-[15px] md:w-[100%] text-[18.49px] flex flex-col gap-[15px]'>
-                            <p>At Carevia Solutions, we know that caring is a challenging and rewarding career. Our aim is to provide compassionate and caring service our clients  and a fulfilling, supportive work environment for or staff. </p>
-                            <p> If you would like to register with our agency, kindly fill out this short form and you will be contact to schedule a meeting.  </p>
-                          </div>
-                       </div>
-         </div>
-    <form className="max-w-3xl w-[90%] mx-auto space-y-6 mt-[40px]">
-
-      {/* Name */}
-      <div>
-        <label className="font-medium text-[#0C2C55] text-[#0C2C55]">Name *</label>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-2">
-          <input
-            type="text"
-            placeholder="First Name"
-            className="border p-3 rounded border-[#296374] w-full border-[#296374]"
-            required
-          />
-          <input
-            type="text"
-            placeholder="Last Name"
-            className="border p-3 rounded border-[#296374] w-full"
-            required
-          />
+          <p className="text-[28px] text-center md:text-[35px] mt-[20px] text-blue-300">
+            <span className="font-bold text-[#296374]">Make a Difference</span>{" "}
+            With a Career in Care
+          </p>
+          <p className="mt-4 text-[19px]">
+            At Carevia Solutions, we know that caring is a challenging and rewarding career. Our aim is to provide compassionate and caring service our clients and a fulfilling, supportive work environment for or staff.
+          </p>
+          <p className="text-[19px] mt-4">If you would like to register with our agency, kindly fill out this short form and you will be contact to schedule a meeting.</p>
         </div>
       </div>
 
-      {/* Phone */}
-      <div>
-        <label className="font-medium text-[#0C2C55]">Contact Phone Number *</label>
-        <input
-          type="tel"
-          className="border p-3 rounded border-[#296374] w-full mt-2"
-          required
-        />
-      </div>
-
-      {/* Email */}
-      <div>
-        <label className="font-medium text-[#0C2C55]">Email</label>
-        <input
-          type="email"
-          className="border p-3 rounded border-[#296374] w-full mt-2"
-        />
-      </div>
-
-      {/* Location */}
-      <div>
-        <label className="font-medium text-[#0C2C55]">Where are you located? *</label>
-        <input
-          type="text"
-          placeholder="City"
-          className="border p-3 rounded border-[#296374] w-full mt-2"
-          required
-        />
-      </div>
-
-      {/* Live-in / Live-out */}
-      <div>
-        <label className="font-medium text-[#0C2C55]">Are you looking for live-in or live-out work? *</label>
-        <div className="flex gap-6 mt-2 text-[#0C2C55]">
-          {["Live-in", "Live-out", "Either"].map(option => (
-            <label key={option} className="flex items-center gap-2">
-              <input type="radio" name="workType" required />
-              {option}
-            </label>
-          ))}
-        </div>
-      </div>
-
-      {/* Experience */}
-      <div>
-        <label className="font-medium text-[#0C2C55]">How many years of experience do you have? *</label>
-        <input
-          type="number"
-          min="0"
-          className="border p-3 rounded border-[#296374] w-full mt-2"
-          required
-        />
-      </div>
-
-      {/* Certificates */}
-      <div>
-        <label className="font-medium text-[#0C2C55]">What certificates do you have? *</label>
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-2">
-          {["HHA", "CNA", "PCA", "LPN", "Other"].map(cert => (
-            <label key={cert} className="flex items-center gap-2 text-[#0C2C55]">
-              <input type="checkbox" />
-              {cert}
-            </label>
-          ))}
-        </div>
-      </div>
-
-      {/* Driver */}
-      <div>
-        <label className="font-medium text-[#0C2C55]">Do you have a driver's license/car? *</label>
-        <div className="flex flex-col gap-2 mt-2 text-[#0C2C55] ">
-          <label><input type="radio" name="driver" required /> Yes, with my own car</label>
-          <label><input type="radio" name="driver" /> Yes, without a car</label>
-          <label><input type="radio" name="driver" /> No</label>
-        </div>
-      </div>
-
-      {/* Agency experience */}
-      <div>
-        <label className="font-medium text-[#0C2C55]">Have you worked with an agency before? *</label>
-        <div className="flex gap-6 mt-2 text-[#0C2C55]">
-          <label><input type="radio" name="agency" required /> Yes</label>
-          <label><input type="radio" name="agency" /> No</label>
-        </div>
-      </div>
-
-      {/* Client types */}
-      <div>
-        <label className="font-medium text-[#0C2C55]">What kind of clients have you cared for? *</label>
-        <input
-          type="text"
-          className="border p-3 rounded border-[#296374] w-full mt-2"
-          required
-        />
-      </div>
-
-      {/* About */}
-      <div>
-        <label className="font-medium text-[#0C2C55]">Please tell us a little about yourself *</label>
-        <textarea
-          rows="4"
-          className="border p-3 rounded border-[#296374] w-full mt-2"
-          required
-        />
-      </div>
-
-      {/* Referral */}
-      <div>
-        <label className="font-medium text-[#0C2C55]">How did you hear about us?</label>
-        <input
-          type="text"
-          className="border p-3 rounded border-[#296374] w-full mt-2"
-        />
-      </div>
-
-      {/* Submit */}
-      <button
-        type="submit"
-        className="bg-[#629FAD] text-white px-6 py-3 rounded border-[#296374] hover:bg-blue-700 transition"
+      {/* FORM */}
+      <form
+        onSubmit={handleSubmit}
+        className="max-w-3xl w-[90%] mx-auto space-y-6 mt-[40px]"
       >
-        Submit Application
-      </button>
+        <div>
+          <label>Name *</label>
+          <div className="grid grid-cols-2 gap-4">
+            <input name="firstName" required placeholder="First Name" className="border p-3 rounded w-full" />
+            <input name="lastName" required placeholder="Last Name" className="border p-3 rounded w-full" />
+          </div>
+        </div>
 
-    </form>
+        <div>
+          <label>Phone *</label>
+          <input name="phone" type="tel" required className="border p-3 rounded w-full" />
         </div>
+
+        <div>
+          <label>Email</label>
+          <input name="email" type="email" className="border p-3 rounded w-full" />
         </div>
+
+        <div>
+          <label>Location *</label>
+          <input name="location" required className="border p-3 rounded w-full" />
+        </div>
+
+        <div>
+          <label>Work Type *</label>
+          <div className="flex gap-6">
+            <label><input type="radio" name="workType" value="Live-in" required /> Live-in</label>
+            <label><input type="radio" name="workType" value="Live-out" /> Live-out</label>
+            <label><input type="radio" name="workType" value="Either" /> Either</label>
+          </div>
+        </div>
+
+        <div>
+          <label>Years of Experience *</label>
+          <input name="experience" type="number" required className="border p-3 rounded w-full" />
+        </div>
+
+        <div>
+          <label>Certificates *</label>
+          <div className="grid grid-cols-2 gap-3">
+            {["HHA", "CNA", "PCA", "LPN", "Other"].map((cert) => (
+              <label key={cert}>
+                <input type="checkbox" name="certificates[]" value={cert} /> {cert}
+              </label>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <label>Driver’s License *</label>
+          <div className="flex flex-col gap-2">
+            <label><input type="radio" name="driver" value="Own car" required /> Yes, own car</label>
+            <label><input type="radio" name="driver" value="No car" /> Yes, no car</label>
+            <label><input type="radio" name="driver" value="No" /> No</label>
+          </div>
+        </div>
+
+        <div>
+          <label>Worked with agency before? *</label>
+          <div className="flex gap-6">
+            <label><input type="radio" name="agencyExperience" value="Yes" required /> Yes</label>
+            <label><input type="radio" name="agencyExperience" value="No" /> No</label>
+          </div>
+        </div>
+
+        <div>
+          <label>About You *</label>
+          <textarea name="about" required className="border p-3 rounded w-full" />
+        </div>
+
+        <button
+          type="submit"
+          className="bg-[#629FAD] text-white px-6 py-3 rounded font-semibold hover:opacity-90 transition"
+        >
+          Submit Application
+        </button>
+      </form>
     </div>
-  )
-}
+  );
+};
 
-export default Career
+export default Career;

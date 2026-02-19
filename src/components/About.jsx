@@ -4,7 +4,7 @@ import CountUp from "@/components/CountUp";
 
 const About = () => {
   return (
-    <div>
+    <div id="about">
       <div className="w-[90%] mx-auto mt-[40px] pb-[100px]  ">
         <div className="md:flex  md:justify-center items-center gap-[30px]">
 
@@ -18,18 +18,18 @@ const About = () => {
             />
         </div>
 
-        <div className="flex flex-col gap-[35px] md:gap-[25px] md:flex-1">
+        <div className="flex flex-col gap-[25px] md:gap-[25px] md:flex-1">
           <h3 className="font-bold texts-[#43acf3] text-[#0E6BA8] md:text-[35px]  text-[30px] mt-[20px] capitalize">
             Welcome to <br /> Carevia solutions
           </h3>
 
-          <p className="text-[17px] md:text-[20px]">
+          <p className="text-[19px] md:text-[20px]">
             At Carevia Solutions, we are dedicated to supporting older adults by
             providing reliable, compassionate, and highly trained care
             professionals across England and Wales.
           </p>
 
-          <p className="text-[17px] md:text-[20px]">
+          <p className="text-[19px] md:text-[20px]">
             We specialise in elder care staffing solutions, connecting care
             homes, supported living services, and private clients with skilled
             caregivers.

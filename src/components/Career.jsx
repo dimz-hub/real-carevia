@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const Career = () => {
@@ -31,9 +32,9 @@ pb-[40px]
 </p>
 <p className='text-white text-[20px]'>We provide both part-time and full-time vacancies across England and Wales </p>
 
-  <div className=''>
+  <div className='mt-[28px]'>
 
-            <button className='border border-white bg-[#0E6BA8] p-3 text-white mt-[35px] rounded-[10px] text-[16px] font-semibold antialiased'>Learn More</button>
+            <Link href='/career' className='border border-white bg-[#0E6BA8]  p-3 text-white mt-[35px] rounded-[10px] text-[16px] font-semibold antialiased'>Learn More</Link>
               </div>
 </div>
 </div>

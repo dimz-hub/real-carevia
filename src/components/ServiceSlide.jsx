@@ -66,10 +66,8 @@ export default function ServiceSlide({cards, color}) {
                 justify-center
               "
             >
-              <div className={`w-[90%] lg:w-[95%] bg-gradient-to-r from-white ${color ? 'to-[#006A71]' : 'to-[#1F6E8C]' }  rounded-xl shadow p-6`}>
-                <h3 className={`text-[26px] capitalize font-semibold mb-2 ${color ?'text-[#013437]' : 'text-[#0E2954]' } `} >
-                  {card.title}
-                </h3>
+              <div className={`w-[90%] lg:w-[95%] bg-gradient-to-r from-white ${color ? 'to-[#006A71]' : 'to-[#1F6E8C]' } h-[60vh] md:h-[62vh]  rounded-xl shadow p-6`}>
+               
                <div className="relative w-full h-[220px] overflow-hidden rounded-2xl">
   <Image
     src={card.img}
@@ -79,6 +77,9 @@ export default function ServiceSlide({cards, color}) {
     sizes="(min-width: 1024px) 33vw, 100vw"
   />
 </div>
+ <h3 className={`text-[26px] mt-[10px] text-center capitalize font-semibold mb-2 ${color ?'text-[#013437]' : 'text-[#0E2954]' } `} >
+                  {card.title}
+                </h3>
 
                 <p className="pt-[20px]">
                   {card.desc}

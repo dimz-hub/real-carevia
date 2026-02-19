@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import ServiceSlide from './ServiceSlide'
+import Link from 'next/link';
 
 const Services = () => {
   const cards = [
@@ -16,7 +17,7 @@ const Services = () => {
         <div>
             <div className='bg-gradient-to-r pb-[80px] md:mt-[-25px] from-white to-[#629FAD]/50 w-full h-auto'>
              
-             <h3 className='text-[33px] md:text-[38px] text-[#0E6BA8] pt-[50px]  font-bold justify-center flex w-[100%]'>
+             <h3 className='text-[36px] md:text-[44px] text-[#0E6BA8] pt-[50px]  font-bold justify-center flex w-[100%]'>
                 Our Care Services
              </h3>
              <div className='md:flex md:gap-[25px] md:w-[80%] md:mx-auto md:justify-center'>
@@ -24,7 +25,7 @@ const Services = () => {
              <div className='w-full mt-[30px] flex-1'>
 
              <Image src='/carevia2.png' alt='about-image' width={1000} height={300} className='w-[500px] md:hidden'/>
-             <Image src='/carevia1c.png' alt='about-image' width={1000} height={300} className='w-[500px] rounded-[25px] hidden md:block'/>
+             <Image src='/endlife.webp' alt='about-image' width={1000} height={300} className='w-[500px] rounded-[25px] hidden md:block'/>
             </div>
              <p className='text-[18px] pt-[30px] md:pt-[80px] flex-1 w-[90%] mx-auto md:text-[20px]'>
              We provide reliable, compassionate, and highly trained care professionals to support elderly individuals in a wide range of settings across England and Wales. Our staffing solutions are designed to meet the unique needs of care providers, families, and service users, ensuring safe, dignified, and person-centred care at all times.
@@ -36,7 +37,7 @@ const Services = () => {
               </div>
               <div className='flex items-center justify-center'>
 
-            <button className='border border-white bg-[#629FAD] p-3 text-white mt-[35px] rounded-[10px] text-[16px] font-semibold antialiased'>Learn More</button>
+            <Link href='/ourservices' className='border border-white bg-[#629FAD] p-3 text-white mt-[35px] rounded-[10px] text-[16px] font-semibold antialiased'>Learn More</Link>
               </div>
             </div>
         </div>
