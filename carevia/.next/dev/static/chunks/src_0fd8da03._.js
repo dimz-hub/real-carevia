@@ -530,11 +530,431 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
 }),
-"[project]/src/components/Hero.jsx [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
+"[project]/src/app/utils/herofont1_ab27bd58.module.css [app-client] (css module)", ((__turbopack_context__) => {
 
-const e = new Error("Could not parse module '[project]/src/components/Hero.jsx'\n\nExpected '</', got '}'");
-e.code = 'MODULE_UNPARSABLE';
-throw e;
+__turbopack_context__.v({
+  "className": "herofont1_ab27bd58-module__oaVq2a__className",
+  "variable": "herofont1_ab27bd58-module__oaVq2a__variable",
+});
+}),
+"[project]/src/app/utils/herofont1_ab27bd58.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$utils$2f$herofont1_ab27bd58$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__ = __turbopack_context__.i("[project]/src/app/utils/herofont1_ab27bd58.module.css [app-client] (css module)");
+;
+const fontData = {
+    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$utils$2f$herofont1_ab27bd58$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].className,
+    style: {
+        fontFamily: "'heroFont1', 'heroFont1 Fallback'"
+    }
+};
+if (__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$utils$2f$herofont1_ab27bd58$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].variable != null) {
+    fontData.variable = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$utils$2f$herofont1_ab27bd58$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].variable;
+}
+const __TURBOPACK__default__export__ = fontData;
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/src/app/utils/herofont2_68386bc6.module.css [app-client] (css module)", ((__turbopack_context__) => {
+
+__turbopack_context__.v({
+  "className": "herofont2_68386bc6-module__1ozIJW__className",
+  "variable": "herofont2_68386bc6-module__1ozIJW__variable",
+});
+}),
+"[project]/src/app/utils/herofont2_68386bc6.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$utils$2f$herofont2_68386bc6$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__ = __turbopack_context__.i("[project]/src/app/utils/herofont2_68386bc6.module.css [app-client] (css module)");
+;
+const fontData = {
+    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$utils$2f$herofont2_68386bc6$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].className,
+    style: {
+        fontFamily: "'heroFont2', 'heroFont2 Fallback'"
+    }
+};
+if (__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$utils$2f$herofont2_68386bc6$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].variable != null) {
+    fontData.variable = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$utils$2f$herofont2_68386bc6$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].variable;
+}
+const __TURBOPACK__default__export__ = fontData;
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/src/app/utils/herofont3_5bf4f360.module.css [app-client] (css module)", ((__turbopack_context__) => {
+
+__turbopack_context__.v({
+  "className": "herofont3_5bf4f360-module__abzRUG__className",
+  "variable": "herofont3_5bf4f360-module__abzRUG__variable",
+});
+}),
+"[project]/src/app/utils/herofont3_5bf4f360.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$utils$2f$herofont3_5bf4f360$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__ = __turbopack_context__.i("[project]/src/app/utils/herofont3_5bf4f360.module.css [app-client] (css module)");
+;
+const fontData = {
+    className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$utils$2f$herofont3_5bf4f360$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].className,
+    style: {
+        fontFamily: "'heroFont3', 'heroFont3 Fallback'"
+    }
+};
+if (__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$utils$2f$herofont3_5bf4f360$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].variable != null) {
+    fontData.variable = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$utils$2f$herofont3_5bf4f360$2e$module$2e$css__$5b$app$2d$client$5d$__$28$css__module$29$__["default"].variable;
+}
+const __TURBOPACK__default__export__ = fontData;
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/src/app/utils/font.js [app-client] (ecmascript) <locals>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$utils$2f$herofont1_ab27bd58$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/app/utils/herofont1_ab27bd58.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$utils$2f$herofont2_68386bc6$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/app/utils/herofont2_68386bc6.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$utils$2f$herofont3_5bf4f360$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/app/utils/herofont3_5bf4f360.js [app-client] (ecmascript)");
+;
+;
+;
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+;
+;
+;
+}),
+"[project]/src/app/utils/herofont1_ab27bd58.js [app-client] (ecmascript) <export default as heroFont1>", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "heroFont1",
+    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$utils$2f$herofont1_ab27bd58$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$utils$2f$herofont1_ab27bd58$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/app/utils/herofont1_ab27bd58.js [app-client] (ecmascript)");
+}),
+"[project]/src/components/Hero.jsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>Hero
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$utils$2f$font$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/src/app/utils/font.js [app-client] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$utils$2f$herofont1_ab27bd58$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__heroFont1$3e$__ = __turbopack_context__.i("[project]/src/app/utils/herofont1_ab27bd58.js [app-client] (ecmascript) <export default as heroFont1>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
+"use client";
+;
+;
+;
+;
+function Hero() {
+    _s();
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(20);
+    if ($[0] !== "b22cdec5ae5a3a36a7db4eab8c44ef9e9e9a43c4d0a639b3a08bf7cecfd1b301") {
+        for(let $i = 0; $i < 20; $i += 1){
+            $[$i] = Symbol.for("react.memo_cache_sentinel");
+        }
+        $[0] = "b22cdec5ae5a3a36a7db4eab8c44ef9e9e9a43c4d0a639b3a08bf7cecfd1b301";
+    }
+    let t0;
+    if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
+        t0 = [
+            "Registered Nurses",
+            "Support Workers",
+            "Healthcare Assistants",
+            "Cleaners & Domestic Staff"
+        ];
+        $[1] = t0;
+    } else {
+        t0 = $[1];
+    }
+    const roles = t0;
+    const [index, setIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
+    const [isHovering, setIsHovering] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    let t1;
+    let t2;
+    if ($[2] !== isHovering) {
+        t1 = ({
+            "Hero[useEffect()]": ()=>{
+                const interval = setInterval({
+                    "Hero[useEffect() > setInterval()]": ()=>{
+                        if (!isHovering) {
+                            setIndex({
+                                "Hero[useEffect() > setInterval() > setIndex()]": (prev)=>(prev + 1) % roles.length
+                            }["Hero[useEffect() > setInterval() > setIndex()]"]);
+                        }
+                    }
+                }["Hero[useEffect() > setInterval()]"], 2500);
+                return ()=>clearInterval(interval);
+            }
+        })["Hero[useEffect()]"];
+        t2 = [
+            isHovering
+        ];
+        $[2] = isHovering;
+        $[3] = t1;
+        $[4] = t2;
+    } else {
+        t1 = $[3];
+        t2 = $[4];
+    }
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(t1, t2);
+    let t3;
+    if ($[5] === Symbol.for("react.memo_cache_sentinel")) {
+        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "absolute inset-0 w-full h-full",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "\r\n            w-full h-full\r\n            bg-[url('/carevia1.png')]\r\n            md:bg-[url('/carevia3a.png')]\r\n            bg-cover\r\n            bg-center\r\n            md:bg-center\r\n          "
+                }, void 0, false, {
+                    fileName: "[project]/src/components/Hero.jsx",
+                    lineNumber: 53,
+                    columnNumber: 58
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "absolute inset-0 bg-black/50"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/Hero.jsx",
+                    lineNumber: 53,
+                    columnNumber: 286
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/Hero.jsx",
+            lineNumber: 53,
+            columnNumber: 10
+        }, this);
+        $[5] = t3;
+    } else {
+        t3 = $[5];
+    }
+    let t4;
+    if ($[6] === Symbol.for("react.memo_cache_sentinel")) {
+        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+            className: `bg-white text-[14.4px] ${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$utils$2f$herofont1_ab27bd58$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__heroFont1$3e$__["heroFont1"].className} md:text-[13px] text-blue-800 lg:mt-[100px] mt-[15px] py-[10px] px-[20px] font-semibold rounded-[20px]`,
+            children: "Redefining Care Staffing across UK"
+        }, void 0, false, {
+            fileName: "[project]/src/components/Hero.jsx",
+            lineNumber: 60,
+            columnNumber: 10
+        }, this);
+        $[6] = t4;
+    } else {
+        t4 = $[6];
+    }
+    let t5;
+    let t6;
+    if ($[7] === Symbol.for("react.memo_cache_sentinel")) {
+        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+            className: "mt-[50px] max-w-xl text-[33px] md:text-[44px] lg:mt-[20px] capitalize text-white font-bold",
+            children: [
+                "Trusted care, ",
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
+                    className: "hidden"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/Hero.jsx",
+                    lineNumber: 68,
+                    columnNumber: 130
+                }, this),
+                " when and where you need it"
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/Hero.jsx",
+            lineNumber: 68,
+            columnNumber: 10
+        }, this);
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+            className: "mt-6 max-w-xl text-[19px] mt-[47px] md:mt-[30px] md:text-[23px]  font-bold",
+            children: "Your trusted team for every care you need"
+        }, void 0, false, {
+            fileName: "[project]/src/components/Hero.jsx",
+            lineNumber: 69,
+            columnNumber: 10
+        }, this);
+        $[7] = t5;
+        $[8] = t6;
+    } else {
+        t5 = $[7];
+        t6 = $[8];
+    }
+    let t7;
+    let t8;
+    if ($[9] === Symbol.for("react.memo_cache_sentinel")) {
+        t7 = ({
+            "Hero[<div>.onMouseEnter]": ()=>setIsHovering(true)
+        })["Hero[<div>.onMouseEnter]"];
+        t8 = ({
+            "Hero[<div>.onMouseLeave]": ()=>setIsHovering(false)
+        })["Hero[<div>.onMouseLeave]"];
+        $[9] = t7;
+        $[10] = t8;
+    } else {
+        t7 = $[9];
+        t8 = $[10];
+    }
+    const t9 = `translateY(-${index * 40}px)`;
+    let t10;
+    if ($[11] !== t9) {
+        t10 = {
+            transform: t9
+        };
+        $[11] = t9;
+        $[12] = t10;
+    } else {
+        t10 = $[12];
+    }
+    let t11;
+    if ($[13] === Symbol.for("react.memo_cache_sentinel")) {
+        t11 = roles.map(_HeroRolesMap);
+        $[13] = t11;
+    } else {
+        t11 = $[13];
+    }
+    let t12;
+    if ($[14] !== t10) {
+        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "mt-6 h-[40px] overflow-hidden relative w-full max-w-md",
+            onMouseEnter: t7,
+            onMouseLeave: t8,
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute w-full transition-transform duration-700 ease-in-out",
+                style: t10,
+                children: t11
+            }, void 0, false, {
+                fileName: "[project]/src/components/Hero.jsx",
+                lineNumber: 111,
+                columnNumber: 119
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/src/components/Hero.jsx",
+            lineNumber: 111,
+            columnNumber: 11
+        }, this);
+        $[14] = t10;
+        $[15] = t12;
+    } else {
+        t12 = $[15];
+    }
+    let t13;
+    if ($[16] === Symbol.for("react.memo_cache_sentinel")) {
+        t13 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+            onClick: _HeroButtonOnClick,
+            className: "\r\n    border border-white\r\n    bg-[#0E6BA8] text-white\r\n    p-3 mt-[35px]\r\n    rounded-[10px]\r\n    font-semibold\r\n    transition-all duration-150\r\n    active:bg-transparent\r\n    active:scale-95\r\n    touch-manipulation\r\n    text-[19px]\r\n  ",
+            children: "Contact Now"
+        }, void 0, false, {
+            fileName: "[project]/src/components/Hero.jsx",
+            lineNumber: 119,
+            columnNumber: 11
+        }, this);
+        $[16] = t13;
+    } else {
+        t13 = $[16];
+    }
+    let t14;
+    if ($[17] === Symbol.for("react.memo_cache_sentinel")) {
+        t14 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "flex gap-[10px] mt-[10px]",
+            children: [
+                t13,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                    className: "\r\n  border border-white\r\n  bg-[#629FAD] p-3 mt-[35px]\r\n  rounded-[10px]\r\n  font-semibold\r\n  transition-all duration-150\r\n  active:bg-transparent\r\n  active:scale-95\r\n  touch-manipulation\r\n  text-[19px]\r\n",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        href: "/career",
+                        children: "Career in Care"
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/Hero.jsx",
+                        lineNumber: 126,
+                        columnNumber: 304
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/src/components/Hero.jsx",
+                    lineNumber: 126,
+                    columnNumber: 59
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/Hero.jsx",
+            lineNumber: 126,
+            columnNumber: 11
+        }, this);
+        $[17] = t14;
+    } else {
+        t14 = $[17];
+    }
+    let t15;
+    if ($[18] !== t12) {
+        t15 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+            className: "relative w-screen h-[80vh]  md:h-screen",
+            children: [
+                t3,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "relative z-10 flex flex-col items-center  text-center text-white px-4 h-full",
+                    children: [
+                        t4,
+                        t5,
+                        t6,
+                        t12,
+                        t14
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/Hero.jsx",
+                    lineNumber: 133,
+                    columnNumber: 76
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/Hero.jsx",
+            lineNumber: 133,
+            columnNumber: 11
+        }, this);
+        $[18] = t12;
+        $[19] = t15;
+    } else {
+        t15 = $[19];
+    }
+    return t15;
+}
+_s(Hero, "yEOuKqPvnUGSOpUhDYQBM7N1/Jw=");
+_c = Hero;
+function _HeroButtonOnClick() {
+    document.getElementById("contact")?.scrollIntoView({
+        behavior: "smooth"
+    });
+}
+function _HeroRolesMap(role, i) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "h-[40px] flex items-center justify-center text-[25px] md:text-[30px] font-semibold",
+        children: role
+    }, i, false, {
+        fileName: "[project]/src/components/Hero.jsx",
+        lineNumber: 147,
+        columnNumber: 10
+    }, this);
+}
+var _c;
+__turbopack_context__.k.register(_c, "Hero");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
 }),
 "[project]/src/components/Review.jsx [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
@@ -1071,4 +1491,4 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 }),
 ]);
 
-//# sourceMappingURL=src_components_6919007a._.js.map
+//# sourceMappingURL=src_0fd8da03._.js.map

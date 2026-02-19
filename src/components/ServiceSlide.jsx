@@ -66,7 +66,7 @@ export default function ServiceSlide({cards, color}) {
                 justify-center
               "
             >
-              <div className={`w-[90%] lg:w-[95%] bg-gradient-to-r from-white ${color ? 'to-[#006A71]' : 'to-[#1F6E8C]' } h-[60vh] md:h-[62vh]  rounded-xl shadow p-6`}>
+              <div className={`w-[90%] lg:w-[95%] bg-gradient-to-r from-white ${color ? 'to-[#006A71]' : 'to-[#1F6E8C]' } h-[50vh] md:h-[62vh]  rounded-xl shadow p-6`}>
                
                <div className="relative w-full h-[220px] overflow-hidden rounded-2xl">
   <Image

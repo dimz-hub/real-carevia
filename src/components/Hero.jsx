@@ -1,4 +1,5 @@
 "use client";
+import { heroFont1, heroFont2, heroFont3 } from "@/app/utils/font";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -45,7 +46,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center  text-center text-white px-4 h-full">
         {/* Tagline */}
-        <p className="bg-white text-[14.4px] md:text-[13px] text-blue-800 lg:mt-[100px] mt-[15px] py-[10px] px-[20px] font-semibold rounded-[20px]">
+        <p className={`bg-white text-[14.4px] ${heroFont3.className} md:text-[15px] text-blue-800 lg:mt-[100px] mt-[15px] py-[10px] px-[20px] font-semibold rounded-[20px]`}>
           Redefining Care Staffing across UK
         </p>
 

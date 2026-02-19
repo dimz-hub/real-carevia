@@ -45,17 +45,17 @@ const Navbar = () => {
           <div className="lg:flex  text-left lg:items-center lg:gap-[300px]">
           <Link href='/'>
           <Image
-            src="/real-logo1.png"
+            src="/the-logo.png"
             alt="carevia"
-            width={165}
+            width={92}
             height={40}
             />
             </Link>
             </div>
             <div className={`hidden lg:flex mx-auto ${isLgScrolled? 'text-[20px]' : 'text-black  text-[20px] border-[#0E6BA8$]'} text-center items-center gap-[40px]  py-[12px] px-[40px]   rounded-[10px]  border-gray-5000/30 font-medium`}>
-             <Link href = '/#about' className="border-b-2 border-[#0E6BA8]">About Us</Link>
-             <Link href='/career' className="border-b-2 border-[#2E8A99]">Careers</Link>
-             <Link href='/ourservices' className="border-b-2 border-[#0E6BA8]">Services</Link>
+             <Link href = '/#about' className="border-b-2 border-[#0E6BA8] hover:border-neutral-50 hover:text-[21px]">About Us</Link>
+             <Link href='/career' className="border-b-2 border-[#2E8A99] hover:border-neutral-50 hover:text-[21px]">Careers</Link>
+             <Link href='/ourservices' className="border-b-2 border-[#0E6BA8] hover:border-neutral-50 hover:text-[21px]">Services</Link>
             </div>
 
             <Link href="/#contact">
@@ -78,7 +78,9 @@ const Navbar = () => {
     active:scale-95
     touch-manipulation
     text-[19px]
-    
+    cursor-pointer
+    hover:shadow-2xl
+    hover:text-[20px]
   "
 >
   Contact Now

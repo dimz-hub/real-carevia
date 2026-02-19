@@ -25,11 +25,11 @@ var _s = __turbopack_context__.k.signature();
 const Navbar = ()=>{
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(36);
-    if ($[0] !== "c2c2b5e7bcadee4b6bbddce91650a61226b50c78a02ddb4bd206e542916a29ec") {
+    if ($[0] !== "1f178b2ba4a56dd03ea7aed0bf0a0b37d82cb295d6819175e13a5f0efc33aa74") {
         for(let $i = 0; $i < 36; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "c2c2b5e7bcadee4b6bbddce91650a61226b50c78a02ddb4bd206e542916a29ec";
+        $[0] = "1f178b2ba4a56dd03ea7aed0bf0a0b37d82cb295d6819175e13a5f0efc33aa74";
     }
     const [menuOpen, setMenuOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const pathname = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"])();
@@ -87,9 +87,9 @@ const Navbar = ()=>{
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                 href: "/",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                    src: "/real-logo1.png",
+                    src: "/the-logo.png",
                     alt: "carevia",
-                    width: 165,
+                    width: 92,
                     height: 40
                 }, void 0, false, {
                     fileName: "[project]/src/components/Navbar.jsx",
@@ -117,7 +117,7 @@ const Navbar = ()=>{
     if ($[7] === Symbol.for("react.memo_cache_sentinel")) {
         t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
             href: "/#about",
-            className: "border-b-2 border-[#0E6BA8]",
+            className: "border-b-2 border-[#0E6BA8] hover:border-neutral-50 hover:text-[21px]",
             children: "About Us"
         }, void 0, false, {
             fileName: "[project]/src/components/Navbar.jsx",
@@ -126,7 +126,7 @@ const Navbar = ()=>{
         }, ("TURBOPACK compile-time value", void 0));
         t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
             href: "/career",
-            className: "border-b-2 border-[#2E8A99]",
+            className: "border-b-2 border-[#2E8A99] hover:border-neutral-50 hover:text-[21px]",
             children: "Careers"
         }, void 0, false, {
             fileName: "[project]/src/components/Navbar.jsx",
@@ -135,7 +135,7 @@ const Navbar = ()=>{
         }, ("TURBOPACK compile-time value", void 0));
         t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
             href: "/ourservices",
-            className: "border-b-2 border-[#0E6BA8]",
+            className: "border-b-2 border-[#0E6BA8] hover:border-neutral-50 hover:text-[21px]",
             children: "Services"
         }, void 0, false, {
             fileName: "[project]/src/components/Navbar.jsx",
@@ -175,7 +175,7 @@ const Navbar = ()=>{
             href: "/#contact",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                 onClick: _temp,
-                className: "\r\n    border border-white\r\n    bg-[#0E6BA8]\r\n  text-white\r\n  hidden lg:block\r\n    py-[10px] px-[20px] \r\n    rounded-[10px]\r\n    font-semibold\r\n    transition-all duration-150\r\n    active:bg-transparent\r\n    active:scale-95\r\n    touch-manipulation\r\n    text-[19px]\r\n    \r\n  ",
+                className: "\r\n    border border-white\r\n    bg-[#0E6BA8]\r\n  text-white\r\n  hidden lg:block\r\n    py-[10px] px-[20px] \r\n    rounded-[10px]\r\n    font-semibold\r\n    transition-all duration-150\r\n    active:bg-transparent\r\n    active:scale-95\r\n    touch-manipulation\r\n    text-[19px]\r\n    cursor-pointer\r\n    hover:shadow-2xl\r\n    hover:text-[20px]\r\n  ",
                 children: "Contact Now"
             }, void 0, false, {
                 fileName: "[project]/src/components/Navbar.jsx",
