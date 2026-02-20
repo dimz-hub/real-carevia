@@ -59,7 +59,7 @@ const Career = () => {
 
       <div className="md:flex w-[90%] mx-auto mt-[35px] gap-[20px] items-center">
         <Image
-          src="/endoflife.jpg"
+          src="/endoflife.JPG"
           alt="career"
           width={1000}
           height={300}
