@@ -14,7 +14,7 @@ const Career = () => {
   to-[#1F6E8C]
 pb-[40px]
 ">
-<div className='w-[90%] mx-auto md:flex    '>
+<div className='w-[90%] mx-auto lg:flex md:gap-[30px] lg:gap-[20px]  '>
 
 <div className=' pt-[60px] flex-1'>
     <Image src='/carevia3.png' alt='career-img' width={1000} height={200} className='w-[430px] h-[250px] md:w-[540px] md:h-[350px] rounded-[10px]' />

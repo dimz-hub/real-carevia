@@ -669,11 +669,11 @@ var _s = __turbopack_context__.k.signature();
 function Hero() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(20);
-    if ($[0] !== "8b50efa276eb22ed323b00f4d962ca9fb2b5a6b80e38a96fe61b232c209c5ddb") {
+    if ($[0] !== "c548a13f9725a9a18ff841229288800e87b1a96c68881a13dedd703015405bbb") {
         for(let $i = 0; $i < 20; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "8b50efa276eb22ed323b00f4d962ca9fb2b5a6b80e38a96fe61b232c209c5ddb";
+        $[0] = "c548a13f9725a9a18ff841229288800e87b1a96c68881a13dedd703015405bbb";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -836,7 +836,7 @@ function Hero() {
             onMouseEnter: t7,
             onMouseLeave: t8,
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute w-full transition-transform duration-700 ease-in-out",
+                className: "absolute w-full transition-transform  duration-700 ease-in-out",
                 style: t10,
                 children: t11
             }, void 0, false, {
@@ -872,7 +872,7 @@ function Hero() {
     let t14;
     if ($[17] === Symbol.for("react.memo_cache_sentinel")) {
         t14 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex gap-[10px] mt-[10px]",
+            className: "flex gap-[10px] mt-[10px] pb-[25px]",
             children: [
                 t13,
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -883,12 +883,12 @@ function Hero() {
                     }, void 0, false, {
                         fileName: "[project]/src/components/Hero.jsx",
                         lineNumber: 126,
-                        columnNumber: 304
+                        columnNumber: 314
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/Hero.jsx",
                     lineNumber: 126,
-                    columnNumber: 59
+                    columnNumber: 69
                 }, this)
             ]
         }, void 0, true, {
@@ -903,7 +903,7 @@ function Hero() {
     let t15;
     if ($[18] !== t12) {
         t15 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-            className: "relative w-screen h-[80vh]  md:h-screen",
+            className: "relative w-screen h-[auto] min-h-[80vh]    md:h-screen",
             children: [
                 t3,
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -918,7 +918,7 @@ function Hero() {
                 }, void 0, true, {
                     fileName: "[project]/src/components/Hero.jsx",
                     lineNumber: 133,
-                    columnNumber: 76
+                    columnNumber: 91
                 }, this)
             ]
         }, void 0, true, {
@@ -942,7 +942,7 @@ function _HeroButtonOnClick() {
 }
 function _HeroRolesMap(role, i) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "h-[40px] flex items-center justify-center text-[25px] md:text-[30px] font-semibold",
+        className: "h-[40px] flex items-center  justify-center text-[25px] md:text-[30px] font-semibold",
         children: role
     }, i, false, {
         fileName: "[project]/src/components/Hero.jsx",

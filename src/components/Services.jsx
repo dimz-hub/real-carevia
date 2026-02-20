@@ -20,18 +20,18 @@ const Services = () => {
              <h3 className='text-[36px] md:text-[44px] text-[#0E6BA8] pt-[50px]  font-bold justify-center flex w-[100%]'>
                 Our Care Services
              </h3>
-             <div className='md:flex md:gap-[25px] md:w-[80%] md:mx-auto md:justify-center'>
+             <div className='lg:flex lg:gap-[25px] lg:w-[80%] lg:mx-auto lg:justify-center'>
 
              <div className='w-full mt-[30px] flex-1'>
 
-             <Image src='/carevia2.png' alt='about-image' width={1000} height={300} className='w-[500px] md:hidden'/>
+             <Image src='/carevia2.png' alt='about-image' width={1000} height={300} className='w-full md:hidden'/>
              <Image src='/endlife.webp' alt='about-image' width={1000} height={300} className='w-[500px] rounded-[25px] hidden md:block'/>
             </div>
-             <p className='text-[18px] pt-[30px] md:pt-[80px] flex-1 w-[90%] mx-auto md:text-[20px]'>
+             <p className='text-[18px] pt-[30px] lg:pt-[80px] flex-1 w-[90%] mx-auto md:text-[20px]'>
              We provide reliable, compassionate, and highly trained care professionals to support elderly individuals in a wide range of settings across England and Wales. Our staffing solutions are designed to meet the unique needs of care providers, families, and service users, ensuring safe, dignified, and person-centred care at all times.
              </p>
                             </div>
-              <div className='md:w-[80%] w-[90%] mx-auto' >
+              <div className='lg:w-[80%] w-[90%] mx-auto' >
                 <p className='text-[#0E6BA8] text-[22px] text-center mb-[8px] mt-[20px]'>Staffing Solutions in Your Area</p>
                 <p Qualified className='text-[18px]'>Our dedicated team proudly serves wide range of locations, delivering reliable and high-quality Service whenever you need us. Qualified healthcare staff for hospitals, nursing homes, residential home, and care providers, reliable, professional and ready to support you. </p>
               </div>

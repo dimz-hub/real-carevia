@@ -24,7 +24,7 @@ export default function Hero() {
   }, [isHovering]);
 
   return (
-    <section className="relative w-screen h-[80vh]  md:h-screen">
+    <section className="relative w-screen h-[auto] min-h-[80vh]    md:h-screen">
       {/* Wrapper to hold background and overlay */}
       <div className="absolute inset-0 w-full h-full">
         {/* Background image */}
@@ -65,13 +65,13 @@ export default function Hero() {
           onMouseLeave={() => setIsHovering(false)}
         >
           <div
-            className="absolute w-full transition-transform duration-700 ease-in-out"
+            className="absolute w-full transition-transform  duration-700 ease-in-out"
             style={{ transform: `translateY(-${index * 40}px)` }}
           >
             {roles.map((role, i) => (
               <div
                 key={i}
-                className="h-[40px] flex items-center justify-center text-[25px] md:text-[30px] font-semibold"
+                className="h-[40px] flex items-center  justify-center text-[25px] md:text-[30px] font-semibold"
               >
                 {role}
               </div>
@@ -79,7 +79,7 @@ export default function Hero() {
           </div>
         </div>
 
-         <div className="flex gap-[10px] mt-[10px]">
+         <div className="flex gap-[10px] mt-[10px] pb-[25px]">
     <button
   onClick={() => {
     document.getElementById("contact")?.scrollIntoView({
