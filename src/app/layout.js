@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import PageTransition from "@/components/PageTransition";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,7 +28,10 @@ export default function RootLayout({ children }) {
 
         <Navbar  />
         </div>
+        <PageTransition>
+
         {children}
+        </PageTransition>
       </body>
     </html>
   );

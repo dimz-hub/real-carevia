@@ -44,7 +44,7 @@ const service = () => {
         <div className="absolute inset-0 bg-black/50" />
       </div>
        <div className="relative z-10 flex flex-col items-center  text-center text-white px-4 h-full">
-          <h3 className='mt-[150px] text-[30px] capitalize md:text-[44px] font-semibold'> Built for care. Delivered with precision.</h3>
+          <h3 className='mt-[150px] text-[29.4px] capitalize md:text-[44px] font-semibold'> Built for care. Delivered with precision.</h3>
           <p className='text-[20px] mt-[20px] md:text-[24px]'>We don’t just supply staff, We support care.</p>
           <p className='text-[18px] mt-[20px] md:text-[20px]'>
             Our experienced professionals integrate seamlessly into your service, giving you reliable support exactly when you need it.
