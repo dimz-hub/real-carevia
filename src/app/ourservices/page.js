@@ -18,7 +18,7 @@ const service = () => {
  const staffCards =  [
       { id: 1, title: "Registered Nurses", img: '/carevia2.png' , desc: '' },
       { id: 2, title: "Healthcare Assistants", img: '/carevia4.png' , desc: ''},
-    { id: 3, title: "Cleaners and Domestic Staff", img: '/cleaner.jpg', desc: '' },
+    { id: 3, title: "Cleaners and Domestic Staff", img: '/cleaner.JPG', desc: '' },
     { id: 4, title: "Support Workers", img: '/carevia3.png', desc: '' },
  
   ];
