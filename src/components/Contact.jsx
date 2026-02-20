@@ -99,13 +99,34 @@ const Contact = () => {
   <input
     type="date"
     name="date"
-    className="outline-none rounded-[10px] border-[1.5px] px-[10px] py-[8px] border-[#0C2C55]"
+    className="outline-none rounded-[10px] lg:block hidden border-[1.5px] px-[10px] py-[8px] border-[#0C2C55]"
+    placeholder='Date'
   />
+
+  <div className="relative lg:hidden">
+  <input
+    type="date"
+    name="date"
+    required
+    className="peer outline-none rounded-[10px] border-[1.5px] px-[10px] py-[8px] border-[#0C2C55] w-full bg-white"
+  />
+  <label
+    className="
+      absolute left-[10px] top-[50%] -translate-y-1/2
+      text-gray-500 bg-white px-1
+      peer-focus:top-0 peer-focus:text-sm peer-focus:text-[#0C2C55]
+      peer-valid:top-0 peer-valid:text-sm
+      transition-all
+    "
+  >
+    Date
+  </label>
+</div>
 
   <textarea
     name="message"
     placeholder="Message"
-    className="outline-none h-[120px] rounded-[10px] border-[1.5px] px-[10px] py-[8px] border-[#0C2C55]"
+    className="outline-none h-[200px] rounded-[10px] border-[1.5px] px-[10px] py-[8px] border-[#0C2C55]"
   />
 
   <button className="bg-gradient-to-r from-[#0C2C55] to-[#296374]/90 p-2 font-semibold rounded-[10px] text-white">

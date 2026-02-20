@@ -128,12 +128,12 @@ var _s = __turbopack_context__.k.signature();
 ;
 const Contact = ()=>{
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(14);
-    if ($[0] !== "bbd38a710c30eef97aed801d97d1c330b0ee1804e61c592e416298d38b82394f") {
-        for(let $i = 0; $i < 14; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(18);
+    if ($[0] !== "823629ae40201a4990724e5e4ba8167668ada642b9a22bf0eacce135fefa814d") {
+        for(let $i = 0; $i < 18; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "bbd38a710c30eef97aed801d97d1c330b0ee1804e61c592e416298d38b82394f";
+        $[0] = "823629ae40201a4990724e5e4ba8167668ada642b9a22bf0eacce135fefa814d";
     }
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"])();
     const [showSuccess, setShowSuccess] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
@@ -415,81 +415,128 @@ const Contact = ()=>{
         t7 = $[9];
         t8 = $[10];
     }
+    let t10;
+    let t11;
+    let t12;
     let t9;
     if ($[11] === Symbol.for("react.memo_cache_sentinel")) {
-        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
+        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+            type: "text",
+            name: "name",
+            placeholder: "Your Name",
+            className: "outline-none rounded-[10px] border-[1.5px] px-[10px] py-[8px] border-[#0C2C55]"
+        }, void 0, false, {
+            fileName: "[project]/src/components/Contact.jsx",
+            lineNumber: 114,
+            columnNumber: 10
+        }, ("TURBOPACK compile-time value", void 0));
+        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+            type: "email",
+            name: "email",
+            placeholder: "Your Email",
+            className: "outline-none rounded-[10px] border-[1.5px] px-[10px] py-[8px] border-[#0C2C55]"
+        }, void 0, false, {
+            fileName: "[project]/src/components/Contact.jsx",
+            lineNumber: 115,
+            columnNumber: 11
+        }, ("TURBOPACK compile-time value", void 0));
+        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+            type: "tel",
+            name: "phone",
+            placeholder: "Your Phone",
+            className: "outline-none rounded-[10px] border-[1.5px] px-[10px] py-[8px] border-[#0C2C55]"
+        }, void 0, false, {
+            fileName: "[project]/src/components/Contact.jsx",
+            lineNumber: 116,
+            columnNumber: 11
+        }, ("TURBOPACK compile-time value", void 0));
+        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+            type: "date",
+            name: "date",
+            className: "outline-none rounded-[10px] lg:block hidden border-[1.5px] px-[10px] py-[8px] border-[#0C2C55]",
+            placeholder: "Date"
+        }, void 0, false, {
+            fileName: "[project]/src/components/Contact.jsx",
+            lineNumber: 117,
+            columnNumber: 11
+        }, ("TURBOPACK compile-time value", void 0));
+        $[11] = t10;
+        $[12] = t11;
+        $[13] = t12;
+        $[14] = t9;
+    } else {
+        t10 = $[11];
+        t11 = $[12];
+        t12 = $[13];
+        t9 = $[14];
+    }
+    let t13;
+    if ($[15] === Symbol.for("react.memo_cache_sentinel")) {
+        t13 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
             onSubmit: handleSubmit,
             className: "mb-[30px] flex flex-col gap-[25px] w-[80%] mx-auto mt-[30px]",
             children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                    type: "text",
-                    name: "name",
-                    placeholder: "Your Name",
-                    className: "outline-none rounded-[10px] border-[1.5px] px-[10px] py-[8px] border-[#0C2C55]"
-                }, void 0, false, {
+                t9,
+                t10,
+                t11,
+                t12,
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "relative lg:hidden",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                            type: "date",
+                            name: "date",
+                            required: true,
+                            className: "peer outline-none rounded-[10px] border-[1.5px] px-[10px] py-[8px] border-[#0C2C55] w-full bg-white"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/Contact.jsx",
+                            lineNumber: 130,
+                            columnNumber: 169
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                            className: "\r\n      absolute left-[10px] top-[50%] -translate-y-1/2\r\n      text-gray-500 bg-white px-1\r\n      peer-focus:top-0 peer-focus:text-sm peer-focus:text-[#0C2C55]\r\n      peer-valid:top-0 peer-valid:text-sm\r\n      transition-all\r\n    ",
+                            children: "Date"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/Contact.jsx",
+                            lineNumber: 130,
+                            columnNumber: 330
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
                     fileName: "[project]/src/components/Contact.jsx",
-                    lineNumber: 111,
-                    columnNumber: 113
-                }, ("TURBOPACK compile-time value", void 0)),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                    type: "email",
-                    name: "email",
-                    placeholder: "Your Email",
-                    className: "outline-none rounded-[10px] border-[1.5px] px-[10px] py-[8px] border-[#0C2C55]"
-                }, void 0, false, {
-                    fileName: "[project]/src/components/Contact.jsx",
-                    lineNumber: 111,
-                    columnNumber: 261
-                }, ("TURBOPACK compile-time value", void 0)),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                    type: "tel",
-                    name: "phone",
-                    placeholder: "Your Phone",
-                    className: "outline-none rounded-[10px] border-[1.5px] px-[10px] py-[8px] border-[#0C2C55]"
-                }, void 0, false, {
-                    fileName: "[project]/src/components/Contact.jsx",
-                    lineNumber: 111,
-                    columnNumber: 412
-                }, ("TURBOPACK compile-time value", void 0)),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                    type: "date",
-                    name: "date",
-                    className: "outline-none rounded-[10px] border-[1.5px] px-[10px] py-[8px] border-[#0C2C55]"
-                }, void 0, false, {
-                    fileName: "[project]/src/components/Contact.jsx",
-                    lineNumber: 111,
-                    columnNumber: 561
+                    lineNumber: 130,
+                    columnNumber: 133
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
                     name: "message",
                     placeholder: "Message",
-                    className: "outline-none h-[120px] rounded-[10px] border-[1.5px] px-[10px] py-[8px] border-[#0C2C55]"
+                    className: "outline-none h-[200px] rounded-[10px] border-[1.5px] px-[10px] py-[8px] border-[#0C2C55]"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Contact.jsx",
-                    lineNumber: 111,
-                    columnNumber: 685
+                    lineNumber: 130,
+                    columnNumber: 612
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                     className: "bg-gradient-to-r from-[#0C2C55] to-[#296374]/90 p-2 font-semibold rounded-[10px] text-white",
                     children: "SUBMIT YOUR MESSAGE NOW"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Contact.jsx",
-                    lineNumber: 111,
-                    columnNumber: 835
+                    lineNumber: 130,
+                    columnNumber: 762
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Contact.jsx",
-            lineNumber: 111,
-            columnNumber: 10
+            lineNumber: 130,
+            columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0));
-        $[11] = t9;
+        $[15] = t13;
     } else {
-        t9 = $[11];
+        t13 = $[15];
     }
-    let t10;
-    if ($[12] !== t1) {
-        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t14;
+    if ($[16] !== t1) {
+        t14 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             id: "contact",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "relative",
@@ -498,24 +545,24 @@ const Contact = ()=>{
                     t2,
                     t7,
                     t8,
-                    t9
+                    t13
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Contact.jsx",
-                lineNumber: 118,
+                lineNumber: 137,
                 columnNumber: 29
             }, ("TURBOPACK compile-time value", void 0))
         }, void 0, false, {
             fileName: "[project]/src/components/Contact.jsx",
-            lineNumber: 118,
+            lineNumber: 137,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0));
-        $[12] = t1;
-        $[13] = t10;
+        $[16] = t1;
+        $[17] = t14;
     } else {
-        t10 = $[13];
+        t14 = $[17];
     }
-    return t10;
+    return t14;
 };
 _s(Contact, "XWH8CCyysg3Y0bSpeZNITeCAHAY=", false, function() {
     return [
