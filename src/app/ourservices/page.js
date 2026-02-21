@@ -55,14 +55,14 @@ const service = () => {
         <div className='w-[90%] mx-auto pb-[40px]'>
 
             <h3 className='text-[#006A71] border-b  text-[35px] font-semibold text-center pt-[20px] mb-[20px]'>Our Services</h3>
-            <p className='text-[18px] mb-[15px]'>We provide highly trained, reliable care professionals to support individuals and families at home and in care settings. From companionship and personal care to specialised support for dementia, learning disabilities, and complex needs, our staff are carefully matched to ensure comfort, dignity, and continuity of care. Our focus is simple: dependable staffing, delivered with compassion and professionalism.</p>
-           <p className='text-[18px]'>We offer a wide range of staffs which <span className='font-semibold'>includes</span></p>
+            <p className='text-[20px] md:text-[22px] mb-[15px]'>We provide highly trained, reliable care professionals to support individuals and families at home and in care settings. From companionship and personal care to specialised support for dementia, learning disabilities, and complex needs, our staff are carefully matched to ensure comfort, dignity, and continuity of care. Our focus is simple: dependable staffing, delivered with compassion and professionalism.</p>
+           <p className='text-[20px] md:text-[22px]'>We offer a wide range of staffs which <span className='font-semibold'>includes</span></p>
         </div>
            <div className='pb-[40px]'>
               <ServiceSlide cards={staffCards} color = {true} />
            </div>
                 </div>
-            <p className='mt-[20px] w-[90%] mx-auto text-[18px] text-center'> <span className='text-[#006A71] font-semibold '  >Staffs</span> in each category are  trained and qualified to work in various aspect of care <span className='text-[#1F6E8C] font-semibold'> Such as</span>     </p>
+            <p className='mt-[20px] w-[90%] mx-auto md:text-[22px] text-[20px] text-center'> <span className='text-[#006A71] font-semibold '  >Staffs</span> in each category are  trained and qualified to work in various aspect of care <span className='text-[#1F6E8C] font-semibold'> Such as</span>     </p>
             <div className=''>
           <div className="mt-[30px] mx-auto  w-[90%]">
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -74,7 +74,7 @@ const service = () => {
 
 
             <div className='h-[40vh] flex flex-col mt-[40px] gap-[10px] items-center justify-center bg-[#84A7A1]/70 '>
-              <p className='w-[87%] text-center text-[18px] mx-auto'>"I underestimated how hard it was to find support for my adult son who has challenging behaviour, but getting in conatct with Carevia Solutions gave us the perfect care he needed. "</p>
+              <p className='w-[87%] text-center text-[19px] mx-auto'>"I underestimated how hard it was to find support for my adult son who has challenging behaviour, but getting in conatct with Carevia Solutions gave us the perfect care he needed. "</p>
               <p className='text-center text-[18px] font-semibold'>
               - LUCY R, CAREVIA SOLUTIONS <br /> CLIENT
               </p>

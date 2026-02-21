@@ -12,11 +12,11 @@ const ServiceCard = ({ card }) => {
         src={card.img}
         alt="service-img"
         width={1000}
-        height={300}
-        className="w-full h-auto rounded-2xl"
+        height={400}
+        className="w-full h-[200px] lg:h-auto rounded-2xl"
       />
 
-      <p className="pt-[20px] text-[17.7px]">
+      <p className="pt-[20px] text-[20px]">
         {card.desc}
       </p>
     </div>

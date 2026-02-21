@@ -705,6 +705,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$utils$2f$font$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/src/app/utils/font.js [app-client] (ecmascript) <locals>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$utils$2f$herofont3_6d00b718$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__heroFont3$3e$__ = __turbopack_context__.i("[project]/src/app/utils/herofont3_6d00b718.js [app-client] (ecmascript) <export default as heroFont3>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
@@ -713,14 +714,15 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
+;
 function Hero() {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(20);
-    if ($[0] !== "c548a13f9725a9a18ff841229288800e87b1a96c68881a13dedd703015405bbb") {
-        for(let $i = 0; $i < 20; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(22);
+    if ($[0] !== "8c5460203346869d4edf51279c6ec7d5f5df9f79cd2b8d958c1d807b2a45040a") {
+        for(let $i = 0; $i < 22; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "c548a13f9725a9a18ff841229288800e87b1a96c68881a13dedd703015405bbb";
+        $[0] = "8c5460203346869d4edf51279c6ec7d5f5df9f79cd2b8d958c1d807b2a45040a";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -737,6 +739,7 @@ function Hero() {
     const roles = t0;
     const [index, setIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
     const [isHovering, setIsHovering] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [imageLoaded, setImageLoaded] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     let t1;
     let t2;
     if ($[2] !== isHovering) {
@@ -766,234 +769,247 @@ function Hero() {
     }
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(t1, t2);
     let t3;
-    if ($[5] === Symbol.for("react.memo_cache_sentinel")) {
-        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "absolute inset-0 w-full h-full",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "\r\n            w-full h-full\r\n            bg-[url('/carevia1.png')]\r\n            md:bg-[url('/carevia3a.png')]\r\n            bg-cover\r\n            bg-center\r\n            md:bg-center\r\n          "
-                }, void 0, false, {
-                    fileName: "[project]/src/components/Hero.jsx",
-                    lineNumber: 53,
-                    columnNumber: 58
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "absolute inset-0 bg-black/50"
-                }, void 0, false, {
-                    fileName: "[project]/src/components/Hero.jsx",
-                    lineNumber: 53,
-                    columnNumber: 286
-                }, this)
-            ]
-        }, void 0, true, {
+    if ($[5] !== imageLoaded) {
+        t3 = !imageLoaded && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "absolute inset-0 bg-gray-200 animate-pulse z-0"
+        }, void 0, false, {
             fileName: "[project]/src/components/Hero.jsx",
-            lineNumber: 53,
-            columnNumber: 10
+            lineNumber: 55,
+            columnNumber: 26
         }, this);
-        $[5] = t3;
+        $[5] = imageLoaded;
+        $[6] = t3;
     } else {
-        t3 = $[5];
+        t3 = $[6];
     }
     let t4;
-    if ($[6] === Symbol.for("react.memo_cache_sentinel")) {
-        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-            className: `bg-white text-[14.4px] ${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$utils$2f$herofont3_6d00b718$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__heroFont3$3e$__["heroFont3"].className} md:text-[15px] text-blue-800 lg:mt-[100px] mt-[15px] py-[10px] px-[20px] font-semibold rounded-[20px]`,
-            children: "Redefining Care Staffing across UK"
-        }, void 0, false, {
-            fileName: "[project]/src/components/Hero.jsx",
-            lineNumber: 60,
-            columnNumber: 10
-        }, this);
-        $[6] = t4;
-    } else {
-        t4 = $[6];
-    }
-    let t5;
-    let t6;
     if ($[7] === Symbol.for("react.memo_cache_sentinel")) {
-        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-            className: "mt-[50px] max-w-xl text-[33px] md:text-[44px] lg:mt-[20px] capitalize text-white font-bold",
-            children: [
-                "Trusted care, ",
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
-                    className: "hidden"
-                }, void 0, false, {
-                    fileName: "[project]/src/components/Hero.jsx",
-                    lineNumber: 68,
-                    columnNumber: 130
-                }, this),
-                " when and where you need it"
-            ]
-        }, void 0, true, {
-            fileName: "[project]/src/components/Hero.jsx",
-            lineNumber: 68,
-            columnNumber: 10
-        }, this);
-        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-            className: "mt-6 max-w-xl text-[19px] mt-[47px] md:mt-[30px] md:text-[23px]  font-bold",
-            children: "Your trusted team for every care you need"
+        t4 = ({
+            "Hero[<Image>.onLoadingComplete]": ()=>setImageLoaded(true)
+        })["Hero[<Image>.onLoadingComplete]"];
+        $[7] = t4;
+    } else {
+        t4 = $[7];
+    }
+    const t5 = `
+          object-cover transition-opacity duration-700
+          ${imageLoaded ? "opacity-100" : "opacity-0"}
+        `;
+    let t6;
+    if ($[8] !== t5) {
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+            src: "/carevia1.png",
+            alt: "Carevia hero",
+            fill: true,
+            priority: true,
+            sizes: "100vw",
+            onLoadingComplete: t4,
+            className: t5
         }, void 0, false, {
             fileName: "[project]/src/components/Hero.jsx",
-            lineNumber: 69,
+            lineNumber: 76,
             columnNumber: 10
         }, this);
-        $[7] = t5;
-        $[8] = t6;
+        $[8] = t5;
+        $[9] = t6;
     } else {
-        t5 = $[7];
-        t6 = $[8];
+        t6 = $[9];
     }
     let t7;
-    let t8;
-    if ($[9] === Symbol.for("react.memo_cache_sentinel")) {
+    if ($[10] === Symbol.for("react.memo_cache_sentinel")) {
         t7 = ({
-            "Hero[<div>.onMouseEnter]": ()=>setIsHovering(true)
-        })["Hero[<div>.onMouseEnter]"];
-        t8 = ({
-            "Hero[<div>.onMouseLeave]": ()=>setIsHovering(false)
-        })["Hero[<div>.onMouseLeave]"];
-        $[9] = t7;
-        $[10] = t8;
+            "Hero[<Image>.onLoadingComplete]": ()=>setImageLoaded(true)
+        })["Hero[<Image>.onLoadingComplete]"];
+        $[10] = t7;
     } else {
-        t7 = $[9];
-        t8 = $[10];
+        t7 = $[10];
     }
-    const t9 = `translateY(-${index * 40}px)`;
-    let t10;
-    if ($[11] !== t9) {
-        t10 = {
-            transform: t9
-        };
-        $[11] = t9;
-        $[12] = t10;
+    const t8 = `
+          hidden md:block object-cover transition-opacity duration-700
+          ${imageLoaded ? "opacity-100" : "opacity-0"}
+        `;
+    let t9;
+    if ($[11] !== t8) {
+        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+            src: "/carevia3a.png",
+            alt: "Carevia hero desktop",
+            fill: true,
+            priority: true,
+            sizes: "100vw",
+            onLoadingComplete: t7,
+            className: t8
+        }, void 0, false, {
+            fileName: "[project]/src/components/Hero.jsx",
+            lineNumber: 97,
+            columnNumber: 10
+        }, this);
+        $[11] = t8;
+        $[12] = t9;
     } else {
-        t10 = $[12];
+        t9 = $[12];
+    }
+    let t10;
+    if ($[13] === Symbol.for("react.memo_cache_sentinel")) {
+        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "absolute inset-0 bg-black/50 z-10"
+        }, void 0, false, {
+            fileName: "[project]/src/components/Hero.jsx",
+            lineNumber: 105,
+            columnNumber: 11
+        }, this);
+        $[13] = t10;
+    } else {
+        t10 = $[13];
     }
     let t11;
-    if ($[13] === Symbol.for("react.memo_cache_sentinel")) {
-        t11 = roles.map(_HeroRolesMap);
-        $[13] = t11;
-    } else {
-        t11 = $[13];
-    }
-    let t12;
-    if ($[14] !== t10) {
-        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "mt-6 h-[40px] overflow-hidden relative w-full max-w-md",
-            onMouseEnter: t7,
-            onMouseLeave: t8,
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute w-full transition-transform  duration-700 ease-in-out",
-                style: t10,
-                children: t11
-            }, void 0, false, {
-                fileName: "[project]/src/components/Hero.jsx",
-                lineNumber: 111,
-                columnNumber: 119
-            }, this)
-        }, void 0, false, {
-            fileName: "[project]/src/components/Hero.jsx",
-            lineNumber: 111,
-            columnNumber: 11
-        }, this);
-        $[14] = t10;
-        $[15] = t12;
-    } else {
-        t12 = $[15];
-    }
-    let t13;
-    if ($[16] === Symbol.for("react.memo_cache_sentinel")) {
-        t13 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-            onClick: _HeroButtonOnClick,
-            className: "\r\n    border border-white\r\n    bg-[#0E6BA8] text-white\r\n    p-3 mt-[35px]\r\n    rounded-[10px]\r\n    font-semibold\r\n    transition-all duration-150\r\n    active:bg-transparent\r\n    active:scale-95\r\n    touch-manipulation\r\n    text-[19px]\r\n  ",
-            children: "Contact Now"
-        }, void 0, false, {
-            fileName: "[project]/src/components/Hero.jsx",
-            lineNumber: 119,
-            columnNumber: 11
-        }, this);
-        $[16] = t13;
-    } else {
-        t13 = $[16];
-    }
-    let t14;
-    if ($[17] === Symbol.for("react.memo_cache_sentinel")) {
-        t14 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex gap-[10px] mt-[10px] pb-[25px]",
+    if ($[14] !== imageLoaded || $[15] !== index) {
+        t11 = imageLoaded && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "relative z-20 flex flex-col items-center text-center text-white px-4 h-full",
             children: [
-                t13,
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                    className: "\r\n  border border-white\r\n  bg-[#629FAD] p-3 mt-[35px]\r\n  rounded-[10px]\r\n  font-semibold\r\n  transition-all duration-150\r\n  active:bg-transparent\r\n  active:scale-95\r\n  touch-manipulation\r\n  text-[19px]\r\n",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                        href: "/career",
-                        children: "Career in Care"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/Hero.jsx",
-                        lineNumber: 126,
-                        columnNumber: 314
-                    }, this)
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    className: `
+              bg-white text-[14.4px]
+              ${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$utils$2f$herofont3_6d00b718$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__heroFont3$3e$__["heroFont3"].className}
+              md:text-[15px] text-blue-800
+              lg:mt-[100px] mt-[15px]
+              py-[10px] px-[20px]
+              font-semibold rounded-[20px]
+            `,
+                    children: "Redefining Care Staffing across UK"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Hero.jsx",
-                    lineNumber: 126,
-                    columnNumber: 69
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/src/components/Hero.jsx",
-            lineNumber: 126,
-            columnNumber: 11
-        }, this);
-        $[17] = t14;
-    } else {
-        t14 = $[17];
-    }
-    let t15;
-    if ($[18] !== t12) {
-        t15 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-            className: "relative w-screen h-[auto] min-h-[80vh]    md:h-screen",
-            children: [
-                t3,
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "relative z-10 flex flex-col items-center  text-center text-white px-4 h-full",
+                    lineNumber: 112,
+                    columnNumber: 119
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    className: "mt-[50px] max-w-xl text-[33px] md:text-[44px] lg:mt-[20px] font-bold",
                     children: [
-                        t4,
-                        t5,
-                        t6,
-                        t12,
-                        t14
+                        "Trusted care,",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
+                            className: "hidden"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/Hero.jsx",
+                            lineNumber: 119,
+                            columnNumber: 151
+                        }, this),
+                        "when and where you need it"
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Hero.jsx",
-                    lineNumber: 133,
-                    columnNumber: 91
+                    lineNumber: 119,
+                    columnNumber: 54
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    className: "mt-[47px] md:mt-[30px] text-[19px] md:text-[23px] font-bold",
+                    children: "Your trusted team for every care you need"
+                }, void 0, false, {
+                    fileName: "[project]/src/components/Hero.jsx",
+                    lineNumber: 119,
+                    columnNumber: 206
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "mt-6 h-[40px] overflow-hidden relative w-full max-w-md",
+                    onMouseEnter: {
+                        "Hero[<div>.onMouseEnter]": ()=>setIsHovering(true)
+                    }["Hero[<div>.onMouseEnter]"],
+                    onMouseLeave: {
+                        "Hero[<div>.onMouseLeave]": ()=>setIsHovering(false)
+                    }["Hero[<div>.onMouseLeave]"],
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "absolute w-full transition-transform duration-700 ease-in-out",
+                        style: {
+                            transform: `translateY(-${index * 40}px)`
+                        },
+                        children: roles.map(_HeroRolesMap)
+                    }, void 0, false, {
+                        fileName: "[project]/src/components/Hero.jsx",
+                        lineNumber: 123,
+                        columnNumber: 38
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/src/components/Hero.jsx",
+                    lineNumber: 119,
+                    columnNumber: 326
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "flex gap-[10px] mt-[10px] pb-[25px]",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            onClick: _HeroButtonOnClick,
+                            className: "border border-white bg-[#0E6BA8] p-3 mt-[35px] rounded-[10px] font-semibold text-[19px]",
+                            children: "Contact Now"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/Hero.jsx",
+                            lineNumber: 125,
+                            columnNumber: 103
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                            href: "/career",
+                            className: "border border-white bg-[#629FAD] p-3 mt-[35px] rounded-[10px] font-semibold text-[19px]",
+                            children: "Career in Care"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/Hero.jsx",
+                            lineNumber: 125,
+                            columnNumber: 260
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/Hero.jsx",
+                    lineNumber: 125,
+                    columnNumber: 50
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Hero.jsx",
-            lineNumber: 133,
+            lineNumber: 112,
+            columnNumber: 26
+        }, this);
+        $[14] = imageLoaded;
+        $[15] = index;
+        $[16] = t11;
+    } else {
+        t11 = $[16];
+    }
+    let t12;
+    if ($[17] !== t11 || $[18] !== t3 || $[19] !== t6 || $[20] !== t9) {
+        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+            className: "relative w-screen min-h-[80vh] md:h-screen overflow-hidden",
+            children: [
+                t3,
+                t6,
+                t9,
+                t10,
+                t11
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/Hero.jsx",
+            lineNumber: 134,
             columnNumber: 11
         }, this);
-        $[18] = t12;
-        $[19] = t15;
+        $[17] = t11;
+        $[18] = t3;
+        $[19] = t6;
+        $[20] = t9;
+        $[21] = t12;
     } else {
-        t15 = $[19];
+        t12 = $[21];
     }
-    return t15;
+    return t12;
 }
-_s(Hero, "yEOuKqPvnUGSOpUhDYQBM7N1/Jw=");
+_s(Hero, "WLBEmVkoPwBXaQLQdXd/m3cAJmY=");
 _c = Hero;
 function _HeroButtonOnClick() {
-    document.getElementById("contact")?.scrollIntoView({
+    return document.getElementById("contact")?.scrollIntoView({
         behavior: "smooth"
     });
 }
 function _HeroRolesMap(role, i) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "h-[40px] flex items-center  justify-center text-[25px] md:text-[30px] font-semibold",
+        className: "h-[40px] flex items-center justify-center text-[25px] md:text-[30px] font-semibold",
         children: role
     }, i, false, {
         fileName: "[project]/src/components/Hero.jsx",
-        lineNumber: 147,
+        lineNumber: 151,
         columnNumber: 10
     }, this);
 }
@@ -1242,11 +1258,11 @@ var _s = __turbopack_context__.k.signature();
 function ServiceSlide(t0) {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(35);
-    if ($[0] !== "bc97e34353a2bfb931ad71667b2e50cf6925dc19138000de61f4378d3b763d93") {
+    if ($[0] !== "28bf6b2a079205160d7602243361dda8c739fe725937baea89f5cac5aa76d1bf") {
         for(let $i = 0; $i < 35; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "bc97e34353a2bfb931ad71667b2e50cf6925dc19138000de61f4378d3b763d93";
+        $[0] = "28bf6b2a079205160d7602243361dda8c739fe725937baea89f5cac5aa76d1bf";
     }
     const { cards, color } = t0;
     const [index, setIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
@@ -1423,7 +1439,7 @@ function ServiceSlide(t0) {
                 "ServiceSlide[cards.map()]": (card, i_1)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "\r\n                flex-shrink-0\r\n                w-full\r\n                lg:w-1/3\r\n                flex\r\n                justify-center\r\n              ",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: `w-[90%] lg:w-[95%] bg-gradient-to-r from-white ${color ? "to-[#006A71]" : "to-[#1F6E8C]"} h-[50vh] md:h-[62vh]  rounded-xl shadow p-6`,
+                            className: `w-[90%] lg:w-[95%] bg-gradient-to-r from-white ${color ? "to-[#006A71]" : "to-[#1F6E8C]"} h-[330px] md:h-[62vh]  rounded-xl shadow p-6`,
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "relative w-full h-[220px] overflow-hidden rounded-2xl",
@@ -1436,12 +1452,12 @@ function ServiceSlide(t0) {
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/ServiceSlide.jsx",
                                         lineNumber: 154,
-                                        columnNumber: 474
+                                        columnNumber: 475
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ServiceSlide.jsx",
                                     lineNumber: 154,
-                                    columnNumber: 403
+                                    columnNumber: 404
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                     className: `text-[26px] mt-[10px] text-center capitalize font-semibold mb-2 ${color ? "text-[#013437]" : "text-[#0E2954]"} `,
@@ -1449,7 +1465,7 @@ function ServiceSlide(t0) {
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ServiceSlide.jsx",
                                     lineNumber: 154,
-                                    columnNumber: 599
+                                    columnNumber: 600
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "pt-[20px]",
@@ -1457,7 +1473,7 @@ function ServiceSlide(t0) {
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/ServiceSlide.jsx",
                                     lineNumber: 154,
-                                    columnNumber: 746
+                                    columnNumber: 747
                                 }, this)
                             ]
                         }, void 0, true, {
