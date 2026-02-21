@@ -1,10 +1,19 @@
 "use client";
 
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import { useRouter } from "next/navigation";
 
 const Career = () => {
+  const [bgLoaded, setBgLoaded] = useState(false);
+  
+    // Preload hero background image
+    useEffect(() => {
+      const img = new window.Image();
+      img.src = "/carevia5.png";
+      img.onload = () => setBgLoaded(true);
+    }, []);
+
   const router = useRouter();
   const [showSuccess, setShowSuccess] = useState(false);
 
@@ -41,6 +50,19 @@ const Career = () => {
       alert("Something went wrong.");
     }
   };
+
+   if (!bgLoaded) {
+    return (
+      <div className="fixed inset-0 flex items-center justify-center bg-white z-50">
+        <div className="flex flex-col items-center gap-4">
+          <div className="h-10 w-10 rounded-full border-4 border-[#296374] border-t-transparent animate-spin" />
+          <p className="text-[#296374] font-semibold text-lg">
+            Loading career…
+          </p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="relative pb-[30px]">

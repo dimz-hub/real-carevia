@@ -87,6 +87,7 @@
     --radius-2xl: 1rem;
     --ease-out: cubic-bezier(0, 0, .2, 1);
     --ease-in-out: cubic-bezier(.4, 0, .2, 1);
+    --animate-spin: spin 1s linear infinite;
     --animate-pulse: pulse 2s cubic-bezier(.4, 0, .6, 1) infinite;
     --blur-sm: 8px;
     --default-transition-duration: .15s;
@@ -565,11 +566,15 @@
     height: calc(var(--spacing) * 4);
   }
 
+  .h-10 {
+    height: calc(var(--spacing) * 10);
+  }
+
   .h-36 {
     height: calc(var(--spacing) * 36);
   }
 
-  .h-\[1\], .h-\[1px\] {
+  .h-\[1px\] {
     height: 1px;
   }
 
@@ -609,7 +614,7 @@
     height: 330px;
   }
 
-  .h-\[auto\], .h-auto {
+  .h-auto {
     height: auto;
   }
 
@@ -631,6 +636,10 @@
 
   .w-4 {
     width: calc(var(--spacing) * 4);
+  }
+
+  .w-10 {
+    width: calc(var(--spacing) * 10);
   }
 
   .w-\[5px\] {
@@ -743,6 +752,10 @@
 
   .animate-pulse {
     animation: var(--animate-pulse);
+  }
+
+  .animate-spin {
+    animation: var(--animate-spin);
   }
 
   .cursor-pointer {
@@ -909,6 +922,11 @@
     border-width: 2px;
   }
 
+  .border-4 {
+    border-style: var(--tw-border-style);
+    border-width: 4px;
+  }
+
   .border-\[1\.5px\] {
     border-style: var(--tw-border-style);
     border-width: 1.5px;
@@ -948,8 +966,16 @@
     border-color: #006a71;
   }
 
+  .border-\[\#296374\] {
+    border-color: #296374;
+  }
+
   .border-white {
     border-color: var(--color-white);
+  }
+
+  .border-t-transparent {
+    border-top-color: #0000;
   }
 
   .bg-\[\#0E2A47\] {
@@ -1018,10 +1044,6 @@
   .bg-gradient-to-r {
     --tw-gradient-position: to right in oklab;
     background-image: linear-gradient(var(--tw-gradient-stops));
-  }
-
-  .bg-\[url\(\'\/carevia1\.png\'\)\] {
-    background-image: url("/carevia1.png");
   }
 
   .bg-\[url\(\'\/carevia5\.png\'\)\] {
@@ -1220,10 +1242,6 @@
     padding-bottom: 30px;
   }
 
-  .pb-\[30x\] {
-    padding-bottom: 30x;
-  }
-
   .pb-\[40px\] {
     padding-bottom: 40px;
   }
@@ -1258,10 +1276,6 @@
     line-height: var(--tw-leading, var(--text-xl--line-height));
   }
 
-  .text-\[2px\] {
-    font-size: 2px;
-  }
-
   .text-\[14\.4px\] {
     font-size: 14.4px;
   }
@@ -1272,10 +1286,6 @@
 
   .text-\[16px\] {
     font-size: 16px;
-  }
-
-  .text-\[17\.7px\] {
-    font-size: 17.7px;
   }
 
   .text-\[17px\] {
@@ -1292,10 +1302,6 @@
 
   .text-\[20px\] {
     font-size: 20px;
-  }
-
-  .text-\[21px\] {
-    font-size: 21px;
   }
 
   .text-\[22px\] {
@@ -1380,10 +1386,6 @@
 
   .text-\[\#0e2954\] {
     color: #0e2954;
-  }
-
-  .text-\[\#1F6E8C\] {
-    color: #1f6e8c;
   }
 
   .text-\[\#2E8A99\] {
@@ -1725,18 +1727,6 @@
   @media (min-width: 48rem) {
     .md\:gap-\[30px\] {
       gap: 30px;
-    }
-  }
-
-  @media (min-width: 48rem) {
-    .md\:bg-\[url\(\'\/carevia3a\.png\'\)\] {
-      background-image: url("/carevia3a.png");
-    }
-  }
-
-  @media (min-width: 48rem) {
-    .md\:bg-center {
-      background-position: center;
     }
   }
 
@@ -2292,6 +2282,12 @@ body {
   syntax: "*";
   inherits: false;
   initial-value: 1;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes pulse {
