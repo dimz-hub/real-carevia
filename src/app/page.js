@@ -29,7 +29,7 @@ const [bgLoaded, setBgLoaded] = useState(false);
         <div className="flex flex-col items-center gap-4">
           <div className="h-10 w-10 rounded-full border-4 border-[#296374] border-t-transparent animate-spin" />
           <p className="text-[#296374] font-semibold text-lg">
-            Loading services…
+            Loading…
           </p>
         </div>
       </div>
