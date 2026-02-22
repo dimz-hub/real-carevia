@@ -11,6 +11,7 @@ html {
   scroll-behavior: smooth;
     color-scheme: light;
     color: #0a0a0a;
+    scrollbar-gutter: stable;
 }
 
 

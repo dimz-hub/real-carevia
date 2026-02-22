@@ -44,7 +44,7 @@ const Contact = () => {
   };
 
   return (
-    <div id = 'contact' >
+    <div id = '' >
         <div className='relative'>
           {showSuccess && (
         <div className="fixed top-6 left-1/2 -translate-x-1/2 bg-[#629FAD] z-50  text-white px-6 py-4 rounded-xl shadow-lg animate-fadeIn">

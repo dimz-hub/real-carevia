@@ -710,11 +710,11 @@ var _s = __turbopack_context__.k.signature();
 const Contact = ()=>{
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(18);
-    if ($[0] !== "823629ae40201a4990724e5e4ba8167668ada642b9a22bf0eacce135fefa814d") {
+    if ($[0] !== "0e5df53363fe0aa8aae2cdb95e84d8d7351a60f9e5834cbe544ca394cdadd881") {
         for(let $i = 0; $i < 18; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "823629ae40201a4990724e5e4ba8167668ada642b9a22bf0eacce135fefa814d";
+        $[0] = "0e5df53363fe0aa8aae2cdb95e84d8d7351a60f9e5834cbe544ca394cdadd881";
     }
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"])();
     const [showSuccess, setShowSuccess] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
@@ -1118,7 +1118,7 @@ const Contact = ()=>{
     let t14;
     if ($[16] !== t1) {
         t14 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            id: "contact",
+            id: "",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "relative",
                 children: [
@@ -1131,7 +1131,7 @@ const Contact = ()=>{
             }, void 0, true, {
                 fileName: "[project]/src/components/Contact.jsx",
                 lineNumber: 137,
-                columnNumber: 29
+                columnNumber: 22
             }, ("TURBOPACK compile-time value", void 0))
         }, void 0, false, {
             fileName: "[project]/src/components/Contact.jsx",
@@ -2012,222 +2012,6 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
 }),
-"[project]/src/components/Review.jsx [app-client] (ecmascript)", ((__turbopack_context__) => {
-"use strict";
-
-__turbopack_context__.s([
-    "default",
-    ()=>Review
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
-;
-var _s = __turbopack_context__.k.signature();
-"use client";
-;
-;
-const reviews = [
-    {
-        id: 1,
-        name: "Samuel Edwards",
-        role: "Family Member",
-        text: "When my mother was diagnosed with dementia, caring for her became overwhelming for our family. We wanted her to remain at home, but we needed professional support. Carevia Solutions provided a caregiver who was not only highly skilled in dementia care but also kind, patient, and understanding. She quickly built a bond with my mother, helping her feel calm, safe, and respected in her own home.knowing my mother was in compassionate and capable hands gave our family real peace of mind. We’re truly grateful for the care and support we received."
-    },
-    {
-        id: 2,
-        name: "Jasmine Woods",
-        role: "Client",
-        text: `After my accident, I needed extra support to manage daily life and recover safely. The caregiver provided by  Carevia Solutions was patient, professional, and genuinely caring.With their help, I felt supported, respected, and confident as I worked toward regaining my independence. The care made a real difference during a challenging time.`
-    },
-    {
-        id: 3,
-        name: "Mary Johnson",
-        role: "Family Member",
-        text: "Supporting our loved one with learning disabilities has always been important to us, but we knew we needed professional help to give them the best quality of life.Carevia Solutions provided a caregiver who was patient, understanding, and truly committed. They supported daily routines, encouraged independence, and treated our family member with dignity and respect.Knowing our loved one was in safe and caring hands gave us confidence and peace of mind."
-    }
-];
-function Review() {
-    _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(21);
-    if ($[0] !== "85c1a462aec3a539c19c256b41d964600f84d500cae462dc39350a85dd9c72b1") {
-        for(let $i = 0; $i < 21; $i += 1){
-            $[$i] = Symbol.for("react.memo_cache_sentinel");
-        }
-        $[0] = "85c1a462aec3a539c19c256b41d964600f84d500cae462dc39350a85dd9c72b1";
-    }
-    const [index, setIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
-    let t0;
-    let t1;
-    if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
-        t0 = ({
-            "Review[useEffect()]": ()=>{
-                const interval = setInterval({
-                    "Review[useEffect() > setInterval()]": ()=>{
-                        setIndex(_ReviewUseEffectSetIntervalSetIndex);
-                    }
-                }["Review[useEffect() > setInterval()]"], 4000);
-                return ()=>clearInterval(interval);
-            }
-        })["Review[useEffect()]"];
-        t1 = [];
-        $[1] = t0;
-        $[2] = t1;
-    } else {
-        t0 = $[1];
-        t1 = $[2];
-    }
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(t0, t1);
-    let t2;
-    if ($[3] === Symbol.for("react.memo_cache_sentinel")) {
-        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-            className: "text-[30px] font-bold text-[#629FAD] md:text-[37px]",
-            children: "Care Stories"
-        }, void 0, false, {
-            fileName: "[project]/src/components/Review.jsx",
-            lineNumber: 53,
-            columnNumber: 10
-        }, this);
-        $[3] = t2;
-    } else {
-        t2 = $[3];
-    }
-    const t3 = reviews[index];
-    let t4;
-    if ($[4] !== t3.text) {
-        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-            className: "text-gray-700 text-lg mb-4",
-            children: t3.text
-        }, void 0, false, {
-            fileName: "[project]/src/components/Review.jsx",
-            lineNumber: 61,
-            columnNumber: 10
-        }, this);
-        $[4] = t3.text;
-        $[5] = t4;
-    } else {
-        t4 = $[5];
-    }
-    const t5 = reviews[index];
-    let t6;
-    if ($[6] !== t5.name) {
-        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-            className: "font-semibold text-[#0E6BA8] text-xl",
-            children: t5.name
-        }, void 0, false, {
-            fileName: "[project]/src/components/Review.jsx",
-            lineNumber: 70,
-            columnNumber: 10
-        }, this);
-        $[6] = t5.name;
-        $[7] = t6;
-    } else {
-        t6 = $[7];
-    }
-    const t7 = reviews[index];
-    let t8;
-    if ($[8] !== t7.role) {
-        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            className: "text-gray-500",
-            children: t7.role
-        }, void 0, false, {
-            fileName: "[project]/src/components/Review.jsx",
-            lineNumber: 79,
-            columnNumber: 10
-        }, this);
-        $[8] = t7.role;
-        $[9] = t8;
-    } else {
-        t8 = $[9];
-    }
-    let t9;
-    if ($[10] !== t4 || $[11] !== t6 || $[12] !== t8) {
-        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "w-[90%] mx-auto mt-[20px] lg:w-[95%] bg-gradient-to-r from-white  rounded-xl shadow p-6 transition-all duration-500",
-            children: [
-                t4,
-                t6,
-                t8
-            ]
-        }, void 0, true, {
-            fileName: "[project]/src/components/Review.jsx",
-            lineNumber: 87,
-            columnNumber: 10
-        }, this);
-        $[10] = t4;
-        $[11] = t6;
-        $[12] = t8;
-        $[13] = t9;
-    } else {
-        t9 = $[13];
-    }
-    let t10;
-    if ($[14] !== index) {
-        t10 = reviews.map({
-            "Review[reviews.map()]": (_, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                    onClick: {
-                        "Review[reviews.map() > <button>.onClick]": ()=>setIndex(idx)
-                    }["Review[reviews.map() > <button>.onClick]"],
-                    className: `w-4 h-4 rounded-full transition-all duration-300 ${idx === index ? "bg-[#296374]" : "bg-gray-300"}`
-                }, idx, false, {
-                    fileName: "[project]/src/components/Review.jsx",
-                    lineNumber: 98,
-                    columnNumber: 44
-                }, this)
-        }["Review[reviews.map()]"]);
-        $[14] = index;
-        $[15] = t10;
-    } else {
-        t10 = $[15];
-    }
-    let t11;
-    if ($[16] !== t10) {
-        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex justify-center mt-6 gap-4",
-            children: t10
-        }, void 0, false, {
-            fileName: "[project]/src/components/Review.jsx",
-            lineNumber: 109,
-            columnNumber: 11
-        }, this);
-        $[16] = t10;
-        $[17] = t11;
-    } else {
-        t11 = $[17];
-    }
-    let t12;
-    if ($[18] !== t11 || $[19] !== t9) {
-        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "w-full max-w-2xl mx-auto text-center py-10 px-4",
-            children: [
-                t2,
-                t9,
-                t11
-            ]
-        }, void 0, true, {
-            fileName: "[project]/src/components/Review.jsx",
-            lineNumber: 117,
-            columnNumber: 11
-        }, this);
-        $[18] = t11;
-        $[19] = t9;
-        $[20] = t12;
-    } else {
-        t12 = $[20];
-    }
-    return t12;
-}
-_s(Review, "c3fuAdVwNN91t4bNS1qBXl5hAWY=");
-_c = Review;
-function _ReviewUseEffectSetIntervalSetIndex(prev) {
-    return (prev + 1) % reviews.length;
-}
-var _c;
-__turbopack_context__.k.register(_c, "Review");
-if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
-    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
-}
-}),
 "[project]/src/components/ServiceSlide.jsx [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -2958,10 +2742,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Career$
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Contact$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/Contact.jsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/Footer.jsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Hero$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/Hero.jsx [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Review$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/Review.jsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Services$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/Services.jsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/navigation.js [app-client] (ecmascript)"); // ✅ ADD THIS
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/navigation.js [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
@@ -2974,138 +2757,120 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
-;
 function Home() {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(11);
-    if ($[0] !== "6496dcf3036e27b4678b015ee03c33d47209e1bd839b392e65331def6cab64a9") {
-        for(let $i = 0; $i < 11; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(9);
+    if ($[0] !== "275c8a8b3094c303a124e21cea8a5ee7c6b215b2562f888d62facf9503ea7180") {
+        for(let $i = 0; $i < 9; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "6496dcf3036e27b4678b015ee03c33d47209e1bd839b392e65331def6cab64a9";
+        $[0] = "275c8a8b3094c303a124e21cea8a5ee7c6b215b2562f888d62facf9503ea7180";
     }
-    const [, setBgLoaded] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const searchParams = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useSearchParams"])();
     let t0;
     let t1;
-    if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
+    if ($[1] !== searchParams) {
         t0 = ({
             "Home[useEffect()]": ()=>{
-                const img = new window.Image();
-                img.src = "/carevia5.png";
-                img.onload = ()=>setBgLoaded(true);
+                if (searchParams.get("scrollTo") === "contact") {
+                    setTimeout(_HomeUseEffectSetTimeout, 200);
+                }
             }
         })["Home[useEffect()]"];
-        t1 = [];
-        $[1] = t0;
-        $[2] = t1;
+        t1 = [
+            searchParams
+        ];
+        $[1] = searchParams;
+        $[2] = t0;
+        $[3] = t1;
     } else {
-        t0 = $[1];
-        t1 = $[2];
+        t0 = $[2];
+        t1 = $[3];
     }
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(t0, t1);
     let t2;
     let t3;
-    if ($[3] !== searchParams) {
-        t2 = ({
-            "Home[useEffect()]": ()=>{
-                if (searchParams.get("scrollTo") === "contact") {
-                    document.getElementById("contact")?.scrollIntoView({
-                        behavior: "smooth"
-                    });
-                }
-            }
-        })["Home[useEffect()]"];
-        t3 = [
-            searchParams
-        ];
-        $[3] = searchParams;
+    let t4;
+    let t5;
+    if ($[4] === Symbol.for("react.memo_cache_sentinel")) {
+        t2 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Hero$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            fileName: "[project]/src/app/page.js",
+            lineNumber: 45,
+            columnNumber: 10
+        }, this);
+        t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            fileName: "[project]/src/app/page.js",
+            lineNumber: 46,
+            columnNumber: 10
+        }, this);
+        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Services$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            fileName: "[project]/src/app/page.js",
+            lineNumber: 47,
+            columnNumber: 10
+        }, this);
+        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Career$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            fileName: "[project]/src/app/page.js",
+            lineNumber: 48,
+            columnNumber: 10
+        }, this);
         $[4] = t2;
         $[5] = t3;
+        $[6] = t4;
+        $[7] = t5;
     } else {
         t2 = $[4];
         t3 = $[5];
-    }
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(t2, t3);
-    let t4;
-    let t5;
-    let t6;
-    let t7;
-    if ($[6] === Symbol.for("react.memo_cache_sentinel")) {
-        t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Hero$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-            fileName: "[project]/src/app/page.js",
-            lineNumber: 68,
-            columnNumber: 10
-        }, this);
-        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$About$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-            fileName: "[project]/src/app/page.js",
-            lineNumber: 69,
-            columnNumber: 10
-        }, this);
-        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Services$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-            fileName: "[project]/src/app/page.js",
-            lineNumber: 70,
-            columnNumber: 10
-        }, this);
-        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Career$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-            fileName: "[project]/src/app/page.js",
-            lineNumber: 71,
-            columnNumber: 10
-        }, this);
-        $[6] = t4;
-        $[7] = t5;
-        $[8] = t6;
-        $[9] = t7;
-    } else {
         t4 = $[6];
         t5 = $[7];
-        t6 = $[8];
-        t7 = $[9];
     }
-    let t8;
-    if ($[10] === Symbol.for("react.memo_cache_sentinel")) {
-        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "",
+    let t6;
+    if ($[8] === Symbol.for("react.memo_cache_sentinel")) {
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             children: [
+                t2,
+                t3,
                 t4,
                 t5,
-                t6,
-                t7,
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                     id: "contact",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Contact$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/src/app/page.js",
-                        lineNumber: 84,
-                        columnNumber: 66
+                        lineNumber: 61,
+                        columnNumber: 53
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/page.js",
-                    lineNumber: 84,
-                    columnNumber: 44
+                    lineNumber: 61,
+                    columnNumber: 31
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/src/app/page.js",
-                    lineNumber: 84,
-                    columnNumber: 87
+                    lineNumber: 61,
+                    columnNumber: 74
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/page.js",
-            lineNumber: 84,
+            lineNumber: 61,
             columnNumber: 10
         }, this);
-        $[10] = t8;
+        $[8] = t6;
     } else {
-        t8 = $[10];
+        t6 = $[8];
     }
-    return t8;
+    return t6;
 }
-_s(Home, "+UBxQT4jr+KUaIfUJssLJs7yie4=", false, function() {
+_s(Home, "wpYCjx3Iuh0YGg4csUQIo9F8Zhk=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useSearchParams"]
     ];
 });
 _c = Home;
+function _HomeUseEffectSetTimeout() {
+    document.getElementById("contact")?.scrollIntoView({
+        behavior: "smooth"
+    });
+}
 var _c;
 __turbopack_context__.k.register(_c, "Home");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
@@ -3114,4 +2879,4 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 }),
 ]);
 
-//# sourceMappingURL=src_c7766e3a._.js.map
+//# sourceMappingURL=src_d2f1f6e2._.js.map

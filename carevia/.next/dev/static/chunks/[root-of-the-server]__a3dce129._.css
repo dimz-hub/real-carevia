@@ -139,9 +139,6 @@
       --tw-backdrop-sepia: initial;
       --tw-duration: initial;
       --tw-ease: initial;
-      --tw-scale-x: 1;
-      --tw-scale-y: 1;
-      --tw-scale-z: 1;
     }
   }
 }
@@ -854,10 +851,6 @@
     cursor: pointer;
   }
 
-  .touch-manipulation {
-    touch-action: manipulation;
-  }
-
   .resize {
     resize: both;
   }
@@ -924,6 +917,10 @@
 
   .gap-8 {
     gap: calc(var(--spacing) * 8);
+  }
+
+  .gap-10 {
+    gap: calc(var(--spacing) * 10);
   }
 
   .gap-\[0px\] {
@@ -1242,6 +1239,10 @@
     padding-inline: calc(var(--spacing) * 4);
   }
 
+  .px-5 {
+    padding-inline: calc(var(--spacing) * 5);
+  }
+
   .px-6 {
     padding-inline: calc(var(--spacing) * 6);
   }
@@ -1256,6 +1257,10 @@
 
   .px-\[40px\] {
     padding-inline: 40px;
+  }
+
+  .py-2 {
+    padding-block: calc(var(--spacing) * 2);
   }
 
   .py-3 {
@@ -1352,10 +1357,6 @@
 
   .text-center {
     text-align: center;
-  }
-
-  .text-left {
-    text-align: left;
   }
 
   .text-lg {
@@ -1492,6 +1493,11 @@
     color: #629fad;
   }
 
+  .text-\[\#629FAD\]\/80 {
+    color: #629fadcc;
+    color: lab(61.7451% -17.7461 -13.8708 / .8);
+  }
+
   .text-\[\#013437\] {
     color: #013437;
   }
@@ -1599,11 +1605,6 @@
     transition-duration: var(--tw-duration, var(--default-transition-duration));
   }
 
-  .duration-150 {
-    --tw-duration: .15s;
-    transition-duration: .15s;
-  }
-
   .duration-300 {
     --tw-duration: .3s;
     transition-duration: .3s;
@@ -1691,17 +1692,6 @@
       --tw-shadow: 0 25px 50px -12px var(--tw-shadow-color, #00000040);
       box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
     }
-  }
-
-  .active\:scale-95:active {
-    --tw-scale-x: 95%;
-    --tw-scale-y: 95%;
-    --tw-scale-z: 95%;
-    scale: var(--tw-scale-x) var(--tw-scale-y);
-  }
-
-  .active\:bg-transparent:active {
-    background-color: #0000;
   }
 
   .active\:underline:active {
@@ -2059,6 +2049,7 @@ html {
   --lightningcss-dark: ;
   color-scheme: light;
   color: #0a0a0a;
+  scrollbar-gutter: s;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -2356,24 +2347,6 @@ body {
 @property --tw-ease {
   syntax: "*";
   inherits: false
-}
-
-@property --tw-scale-x {
-  syntax: "*";
-  inherits: false;
-  initial-value: 1;
-}
-
-@property --tw-scale-y {
-  syntax: "*";
-  inherits: false;
-  initial-value: 1;
-}
-
-@property --tw-scale-z {
-  syntax: "*";
-  inherits: false;
-  initial-value: 1;
 }
 
 @keyframes spin {
