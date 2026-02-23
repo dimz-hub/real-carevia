@@ -123,12 +123,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$CountUp
 ;
 ;
 const About = ()=>{
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(10);
-    if ($[0] !== "0829f73823793ba50e38218afe1c711b3f3ec56b167d7fac77ddf47650891b76") {
-        for(let $i = 0; $i < 10; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(9);
+    if ($[0] !== "3324fe86e4d018334995fc239da1553bb1779b8fdad5984ee76908ee4e501eae") {
+        for(let $i = 0; $i < 9; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "0829f73823793ba50e38218afe1c711b3f3ec56b167d7fac77ddf47650891b76";
+        $[0] = "3324fe86e4d018334995fc239da1553bb1779b8fdad5984ee76908ee4e501eae";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -290,13 +290,13 @@ const About = ()=>{
     if ($[6] === Symbol.for("react.memo_cache_sentinel")) {
         t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(StatCard, {
             number: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$CountUp$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                value: 5
+                value: 365
             }, void 0, false, {
                 fileName: "[project]/src/components/About.jsx",
                 lineNumber: 44,
                 columnNumber: 28
             }, void 0),
-            label: "Years of quality care"
+            label: "Days of quality care"
         }, void 0, false, {
             fileName: "[project]/src/components/About.jsx",
             lineNumber: 44,
@@ -310,14 +310,14 @@ const About = ()=>{
     if ($[7] === Symbol.for("react.memo_cache_sentinel")) {
         t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(StatCard, {
             number: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$CountUp$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                value: 270,
-                suffix: "+"
+                value: 100,
+                suffix: "%"
             }, void 0, false, {
                 fileName: "[project]/src/components/About.jsx",
                 lineNumber: 51,
                 columnNumber: 28
             }, void 0),
-            label: "Service Users"
+            label: "Service Satisfaction"
         }, void 0, false, {
             fileName: "[project]/src/components/About.jsx",
             lineNumber: 51,
@@ -329,28 +329,7 @@ const About = ()=>{
     }
     let t7;
     if ($[8] === Symbol.for("react.memo_cache_sentinel")) {
-        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(StatCard, {
-            number: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$CountUp$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                value: 100,
-                suffix: "+"
-            }, void 0, false, {
-                fileName: "[project]/src/components/About.jsx",
-                lineNumber: 58,
-                columnNumber: 28
-            }, void 0),
-            label: "Skilled employees"
-        }, void 0, false, {
-            fileName: "[project]/src/components/About.jsx",
-            lineNumber: 58,
-            columnNumber: 10
-        }, ("TURBOPACK compile-time value", void 0));
-        $[8] = t7;
-    } else {
-        t7 = $[8];
-    }
-    let t8;
-    if ($[9] === Symbol.for("react.memo_cache_sentinel")) {
-        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             id: "about",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "w-[90%] mx-auto mt-[40px] pb-[100px]  ",
@@ -362,53 +341,52 @@ const About = ()=>{
                         children: [
                             t5,
                             t6,
-                            t7,
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(StatCard, {
                                 number: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$CountUp$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                    value: 80,
-                                    suffix: "+"
+                                    value: 24,
+                                    suffix: "/7"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/About.jsx",
-                                    lineNumber: 65,
-                                    columnNumber: 230
+                                    lineNumber: 58,
+                                    columnNumber: 226
                                 }, void 0),
-                                label: "Families Supported"
+                                label: "Care Services"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/About.jsx",
-                                lineNumber: 65,
-                                columnNumber: 212
+                                lineNumber: 58,
+                                columnNumber: 208
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/About.jsx",
-                        lineNumber: 65,
+                        lineNumber: 58,
                         columnNumber: 90
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/About.jsx",
-                lineNumber: 65,
+                lineNumber: 58,
                 columnNumber: 26
             }, ("TURBOPACK compile-time value", void 0))
         }, void 0, false, {
             fileName: "[project]/src/components/About.jsx",
-            lineNumber: 65,
+            lineNumber: 58,
             columnNumber: 10
         }, ("TURBOPACK compile-time value", void 0));
-        $[9] = t8;
+        $[8] = t7;
     } else {
-        t8 = $[9];
+        t7 = $[8];
     }
-    return t8;
+    return t7;
 };
 _c = About;
 const StatCard = (t0)=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(14);
-    if ($[0] !== "0829f73823793ba50e38218afe1c711b3f3ec56b167d7fac77ddf47650891b76") {
+    if ($[0] !== "3324fe86e4d018334995fc239da1553bb1779b8fdad5984ee76908ee4e501eae") {
         for(let $i = 0; $i < 14; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "0829f73823793ba50e38218afe1c711b3f3ec56b167d7fac77ddf47650891b76";
+        $[0] = "3324fe86e4d018334995fc239da1553bb1779b8fdad5984ee76908ee4e501eae";
     }
     const { number, label } = t0;
     let t1;
@@ -418,7 +396,7 @@ const StatCard = (t0)=>{
             children: number
         }, void 0, false, {
             fileName: "[project]/src/components/About.jsx",
-            lineNumber: 86,
+            lineNumber: 79,
             columnNumber: 10
         }, ("TURBOPACK compile-time value", void 0));
         $[1] = number;
@@ -438,7 +416,7 @@ const StatCard = (t0)=>{
     if ($[5] === Symbol.for("react.memo_cache_sentinel")) {
         t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
             fileName: "[project]/src/components/About.jsx",
-            lineNumber: 102,
+            lineNumber: 95,
             columnNumber: 10
         }, ("TURBOPACK compile-time value", void 0));
         $[5] = t3;
@@ -465,7 +443,7 @@ const StatCard = (t0)=>{
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/About.jsx",
-            lineNumber: 117,
+            lineNumber: 110,
             columnNumber: 10
         }, ("TURBOPACK compile-time value", void 0));
         $[8] = t2;
@@ -484,7 +462,7 @@ const StatCard = (t0)=>{
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/About.jsx",
-            lineNumber: 126,
+            lineNumber: 119,
             columnNumber: 10
         }, ("TURBOPACK compile-time value", void 0));
         $[11] = t1;

@@ -51,24 +51,24 @@ At Carevia Solutions Limited, we don’t just provide staff, we provide dependab
         <div className="flex flex-wrap mt-[40px] md:mt-[60px] items-center w-[90%] justify-center mx-auto gap-[20px]">
           
           <StatCard
-            number={<CountUp value={5} />}
-            label="Years of quality care"
+            number={<CountUp value={365} />}
+            label="Days of quality care"
           />
 
           <StatCard
-            number={<CountUp value={270} suffix="+" />}
-            label="Service Users"
+            number={<CountUp value={100} suffix="%" />}
+            label="Service Satisfaction"
           />
 
           <StatCard
-            number={<CountUp value={100} suffix="+" />}
-            label="Skilled employees"
+            number={<CountUp value={24} suffix="/7" />}
+            label="Care Services"
           />
 
-          <StatCard
+          {/* <StatCard
             number={<CountUp value={80} suffix="+" />}
             label="Families Supported"
-          />
+          /> */}
         </div>
       </div>
     </div>
