@@ -25,11 +25,11 @@ var _s = __turbopack_context__.k.signature();
 function Navbar() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(39);
-    if ($[0] !== "7749aa4d3fa4b88b602b23557b9af93b6e6b1946aa12e4f3f6ba56bba61f3614") {
+    if ($[0] !== "64eebcee437bf59c848386ed6fac2af6de3223488cb8144c48128c642ff3c27c") {
         for(let $i = 0; $i < 39; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "7749aa4d3fa4b88b602b23557b9af93b6e6b1946aa12e4f3f6ba56bba61f3614";
+        $[0] = "64eebcee437bf59c848386ed6fac2af6de3223488cb8144c48128c642ff3c27c";
     }
     const [menuOpen, setMenuOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const pathname = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"])();
@@ -167,7 +167,7 @@ function Navbar() {
         t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
             onClick: handleContactClick,
             className: "hidden lg:block bg-[#0E6BA8] text-white px-5 py-2 rounded-lg",
-            children: "Contact"
+            children: "Contact Now"
         }, void 0, false, {
             fileName: "[project]/src/components/Navbar.jsx",
             lineNumber: 95,

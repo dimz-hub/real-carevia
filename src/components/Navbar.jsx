@@ -54,7 +54,7 @@ export default function Navbar() {
             onClick={handleContactClick}
             className="hidden lg:block bg-[#0E6BA8] text-white px-5 py-2 rounded-lg"
           >
-            Contact
+            Contact Now
           </button>
 
           {/* Mobile toggle */}

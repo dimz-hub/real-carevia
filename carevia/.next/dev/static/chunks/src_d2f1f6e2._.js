@@ -1179,11 +1179,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$ico
 ;
 const Footer = ()=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(12);
-    if ($[0] !== "a669a701eced6a0f955c1ff48658094689091e82bc639a78e88186e7b275c6c7") {
+    if ($[0] !== "1244ac959081fdec631af1010273d6179ce9d034535698fb790400ed7a346ff8") {
         for(let $i = 0; $i < 12; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "a669a701eced6a0f955c1ff48658094689091e82bc639a78e88186e7b275c6c7";
+        $[0] = "1244ac959081fdec631af1010273d6179ce9d034535698fb790400ed7a346ff8";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -1388,7 +1388,7 @@ const Footer = ()=>{
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             className: "hover:underline cursor-pointer active:underline",
-                            children: "Home Care"
+                            children: "Hospital Staffing Support"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Footer.jsx",
                             lineNumber: 66,
@@ -1396,43 +1396,43 @@ const Footer = ()=>{
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             className: "hover:underline cursor-pointer active:underline",
-                            children: "Domiciliary Care"
+                            children: "Home Staffing"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Footer.jsx",
                             lineNumber: 66,
-                            columnNumber: 229
+                            columnNumber: 245
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             className: "hover:underline cursor-pointer active:underline",
-                            children: "Dementia Care"
+                            children: "Nursing Home Staffing"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Footer.jsx",
                             lineNumber: 66,
-                            columnNumber: 318
+                            columnNumber: 331
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             className: "hover:underline cursor-pointer active:underline",
-                            children: "Learning Difficulty Care"
+                            children: "Care Provider Packages"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Footer.jsx",
                             lineNumber: 66,
-                            columnNumber: 404
+                            columnNumber: 425
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             className: "hover:underline cursor-pointer active:underline",
-                            children: "End of Life  Care"
+                            children: "Appointment Escorts"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Footer.jsx",
                             lineNumber: 66,
-                            columnNumber: 501
+                            columnNumber: 520
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             className: "hover:underline cursor-pointer active:underline",
-                            children: "Respite Care"
+                            children: "Companionship Services"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Footer.jsx",
                             lineNumber: 66,
-                            columnNumber: 591
+                            columnNumber: 612
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {

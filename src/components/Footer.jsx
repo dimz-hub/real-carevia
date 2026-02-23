@@ -27,12 +27,12 @@ const Footer = () => {
           <div className='pl-[35px] mt-[20px]'>
             <h3 className='font-bold text-[22px] text-white'>Our services</h3>
             <Link href='/ourservices' className='flex flex-col gap-[10px] mt-[10px] text-white text-[18px]'>
-                <span className='hover:underline cursor-pointer active:underline'>Home Care</span>
-                <span className='hover:underline cursor-pointer active:underline'>Domiciliary Care</span>
-                <span className='hover:underline cursor-pointer active:underline'>Dementia Care</span>
-                <span className='hover:underline cursor-pointer active:underline'>Learning Difficulty Care</span>
-                <span className='hover:underline cursor-pointer active:underline'>End of Life  Care</span>
-                <span className='hover:underline cursor-pointer active:underline'>Respite Care</span>
+                <span className='hover:underline cursor-pointer active:underline'>Hospital Staffing Support</span>
+                <span className='hover:underline cursor-pointer active:underline'>Home Staffing</span>
+                <span className='hover:underline cursor-pointer active:underline'>Nursing Home Staffing</span>
+                <span className='hover:underline cursor-pointer active:underline'>Care Provider Packages</span>
+                <span className='hover:underline cursor-pointer active:underline'>Appointment Escorts</span>
+                <span className='hover:underline cursor-pointer active:underline'>Companionship Services</span>
             </Link>
           </div>
           <div className='w-[90%] mx-auto'>
