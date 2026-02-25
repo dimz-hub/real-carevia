@@ -13,9 +13,25 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+
+
 export const metadata = {
-  title: "Carevia",
-  description: "Care Staffing Company",
+  title: {
+    default: "Carevia Solutions ",
+    template: "%s | Carevia Solutions",
+  },
+  description:
+    "Carevia Solutions provides trusted  care and staffing services across England and Wales.",
+  keywords: [
+    " care staffing",
+    "care workers",
+    "healthcare recruitment",
+    "carevia solutions",
+  ],
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({ children }) {
