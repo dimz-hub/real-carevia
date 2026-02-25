@@ -116,7 +116,7 @@ const Service = () => {
 
         {/* INTRO */}
         <div className="w-[90%] mx-auto pb-[40px]">
-          <h3 className="text-[#006A71] border-b text-[35px] md:text-[40px] font-semibold text-center pt-[20px] mb-[20px]">
+          <h3 className="text-[#006A71] border-b text-[35px] md:text-[40px] font-semibold text-center pt-[20px] mb-[21px]">
             Our Services
           </h3>
           <p className="text-[20px] md:text-[22px] mb-[15px]">
